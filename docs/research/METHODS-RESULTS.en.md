@@ -45,7 +45,7 @@ October replaced self-scoring with independent review and iterated the design. T
 
 Sources: [D1–D4](../reports/2026-10-02-final/FINAL-REPORT.en.md), [D5](../reports/2026-10-02-d5/FINAL-REPORT.en.md). Actual runtime models and reasoning settings are UNKNOWN in every trial, including the reviewers (requested Sol Medium). The September self-scores (65, 66) must not be mixed with these independent scores.
 
-**D5, mechanisms.** D5 revised the D4 design and added admission, epoch, and fence controls, which a fresh independent reviewer scored once after anonymous freezing. D5 ran on 2 Oct 2026 UTC and its core wall time was 60 m 48 s. The score fell by one because Complexity went 4 → 3, and Cost stayed 3. The findings behind this ([findings](../reports/2026-10-02-d5/evidence/independent-review-D5/step4-findings.md)):
+**D5, mechanisms.** D5 revised the D4 design and added admission, epoch, and fence controls, which a fresh independent reviewer scored once after anonymous freezing. D5 ran on 2 Oct 2026 UTC and its core wall time was 60 m 48 s. The score fell by one because Complexity went 4 → 3, and Cost stayed 3. Cost 3 is below the mandatory minimum of 4 for the six required categories (Requirements, Architecture, Security/IAM, Availability, Cost, Backup/DR); Complexity 3 meets the general floor of 3 but lowers the weighted total, and is not by itself a mandatory-4 failure. The findings behind this ([findings](../reports/2026-10-02-d5/evidence/independent-review-D5/step4-findings.md)):
 
 - D01: the SQL-backed AdmissionCoordinator sits on every principal request path without sufficient support for operation counts, contention, latency, or recovery ordering.
 - D02: the 40–80 hour initial effort and 16–32 hour rehearsal effort for custom controls lack sufficient task-level grounds.
@@ -75,13 +75,19 @@ These are documented design responses, not measured recovery of a running servic
 - Desk design cannot prove SLOs, deletion, bills, or legal compliance.
 - Frontier limits are not established: these are four requested configurations plus one, not a model ranking.
 
-## 5. Conclusion and controlled next research
+## 5. Conclusion and proposed next research
 
-The design improved in specificity (53 → 78), but it did not pass, and the latest score is 77. A model upgrade alone cannot promise a pass, because missing prices, owner approvals, and empirical records are not supplied by capability. The next decision should address, in order:
+**Conclusion from the records.** Across the independent October trials, design specificity improved (53 → 78), but no trial passed and the latest score is 77 ([D5 report](../reports/2026-10-02-d5/FINAL-REPORT.en.md)). The blocking items were Cost 3, below the mandatory minimum of 4; G3/G4 HOLD; and unresolved owner, source-access, and unauthorized-live prerequisites. Complexity 3 meets the general floor of 3 but lowers the weighted total, and is not by itself a mandatory-4 failure. The September record shows the same pattern at lower specificity: omitted costs and unproven deletion, recovery, and ownership constraints.
 
-1. a simpler architecture before any custom coordinator, with its performance and effort justified;
-2. complete cost quantities, rates, FX, tax, headroom, and labor;
-3. owner decisions on deletion, custody, staffing, and recovery authority;
-4. a valid-write salvage contract after logical corruption.
+**Discussion.** Scores of 77 and 78 sit near the 80 threshold, which motivates testing, but they do not show that a pass is close. D5 (requested High, 77) against the earlier D4 (requested Medium, 78) is not causal evidence: new evidence, a fresh reviewer, added controls, and unverified actual settings all differ ([discussion](../reports/2026-10-02-d5/DISCUSSION.en.md)). Nor does it promise that a stronger model alone will pass, because missing prices, owner approvals, and empirical records are not supplied by capability.
 
-A controlled comparison would fix requirements, rubric, evidence access, and the evaluator. It would attest the model and effort, blind the reviewers, repeat each configuration several times, and separate feedback-assisted from unassisted runs. It must not change thresholds, treat unknown prices as zero, or cap categories merely because measurements are absent. This document does not authorize another trial or any cloud execution ([source](../reports/2026-10-02-final/FINAL-REPORT.en.md)).
+**Proposed comparisons.** The rows below are proposals and hypotheses, not findings and not executed.
+
+| Proposal | Hypothesis | Variable changed | Held constant | Measurement |
+|---|---|---|---|---|
+| (a) Model and effort | Model or reasoning effort changes design quality | Independently verified actual model and reasoning-effort settings; separate model from effort effects if feasible | Identical inherited input and history, evidence, reviewer, rubric | Category scores, gate results, findings |
+| (b) Architecture | A simpler architecture avoids the Complexity and cost burden that a custom coordinator/broker/control layer added in D5 | Simpler design versus the same design with added custom coordinator/broker/control components | Requirements, workload, failure scenarios, evaluator | Complexity score, grounds for performance, effort, and cost, and whether every gate is preserved |
+| (c) Evidence completeness | Evidence-complete inputs reduce unknowns and cost gaps | Evidence-complete inputs versus unresolved assumptions, run as a separately labelled experimental condition; the changed input is declared | Exact same design artifact, actual model and reasoning setting, reviewer configuration, rubric | Unknowns (U), cost completeness, gate results. Not read as a model effect; absent evidence is not fabricated |
+| (d) Evaluator variation | Repeated scoring of one artifact varies enough to affect conclusions | Repeated blinded scoring of the exact same frozen artifact | Rubric, reviewer configuration, evidence | Score variance and category/gate agreement, blind to previous scores and artifact order. Separates evaluator variation from generation variation |
+
+**Scope and limits.** The measurements are desk evidence, ratings, and variation. Live performance or billing tests would need separate future authorization and are not implied or executed here. No trial count, budget, or execution is fixed or authorized. Thresholds and criteria must not be lowered or tuned to raise scores. Unknown prices must not be set to zero, absent evidence must not be fabricated, and categories must not be capped merely because measurements are absent. Owner decisions, cost evidence, and a valid-write salvage contract remain research variables or external evidence, not results a model can supply. This document does not authorize another trial or any cloud execution ([source](../reports/2026-10-02-final/FINAL-REPORT.en.md)).
