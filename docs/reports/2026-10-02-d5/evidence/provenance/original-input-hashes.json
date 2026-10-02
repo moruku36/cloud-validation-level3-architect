@@ -1,0 +1,314 @@
+{
+  "fixed_commit": "73ac52670aa4c8848b6f565236dd6094377c5613",
+  "original_D4_manifest_sha256": "9572c63a74407d6bcc19aa8a96ba374111def6db22a51b0cb57cc4f313fbd29f",
+  "original_upstream_archive_sha256": "385ae1504844485e889c26792bd336531675a62332c60a252c2ba01c27e98f03",
+  "original_upstream_archive_bytes": 424630,
+  "files": [
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/README.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/README.md",
+      "bytes": 3945,
+      "sha256": "1b735171b7577ebc207652e7719c7570804672186824867c8155c9646e2393a1"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/SHA256SUMS.json",
+      "preserved_relative_path": "inherited/blind-review-design-D4/SHA256SUMS.json",
+      "bytes": 3609,
+      "sha256": "9572c63a74407d6bcc19aa8a96ba374111def6db22a51b0cb57cc4f313fbd29f"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/adoption-decisions.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/adoption-decisions.md",
+      "bytes": 7119,
+      "sha256": "855b4a7a39da9a34e44519c615dcc3b009f26972d4cef5c5acba1b18ba0d3f1f"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/answer-ledger-crosswalk.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/answer-ledger-crosswalk.csv",
+      "bytes": 2266,
+      "sha256": "5adf19ed712ce8505351b34d8c3cde45fad95386c28dba2d6fce1401fcbd5cc0"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/answer-ledger-note.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/answer-ledger-note.md",
+      "bytes": 996,
+      "sha256": "40eca5e6dbcc92e5191cfdf1e2eb195ad7e2a57f3d3e15f97d28066cd871d322"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/architecture-options.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/architecture-options.md",
+      "bytes": 13677,
+      "sha256": "c570b22727b7a6fd00d3fe3884fcd66482ec245e18b35654f780d3c81e294bc6"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/conditional-bill-of-quantities.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/conditional-bill-of-quantities.csv",
+      "bytes": 19781,
+      "sha256": "15a0b9ed51485ee6f01f493c4390ebbe760e23a934705f8e6df7be96e7ed2b33"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/cost-configuration-D4.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/cost-configuration-D4.md",
+      "bytes": 5910,
+      "sha256": "b28f4f924cccd23827e8454a4dc108135d95562b006260929f1a5c8096e9bc5a"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/cost-ledger.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/cost-ledger.csv",
+      "bytes": 5732,
+      "sha256": "0c1904d4dab2be6d18bc919fb114d534b60ff80b1e07bec1cddcd12b46be5553"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/cost-operations-model.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/cost-operations-model.md",
+      "bytes": 1248,
+      "sha256": "9d1eb03857024b682904417c1eb62103083e53f57d87440b460b73ac3bf660d1"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/cost-pricing-detail.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/cost-pricing-detail.md",
+      "bytes": 11060,
+      "sha256": "9bf64b86137bcb6cd8235b163093927fe6bc30afe688ebbf0255167283f9801b"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/cover.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/cover.md",
+      "bytes": 1293,
+      "sha256": "6990c9a71929b993898e8988664876dc06fc63208e9b7eb8d58bec4a632b0646"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/d2-gap-disposition.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/d2-gap-disposition.md",
+      "bytes": 287,
+      "sha256": "1e12ae096f698fd18086fb906a58e4e27c15aab4be28f6b95b6c0b754d422bca"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/d3-gap-disposition.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/d3-gap-disposition.md",
+      "bytes": 1593,
+      "sha256": "076626caeb83ae33711c1589b28e92092677ce9bc7e12ece84820e9ade201bca"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/deletion-proof-ledger.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/deletion-proof-ledger.csv",
+      "bytes": 5849,
+      "sha256": "80c99be3493454171b70a9ec9883ef674d56edf859c9b04dc706c84bdef847e6"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/evidence/public/d4-source-access-matrix.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/evidence/public/d4-source-access-matrix.csv",
+      "bytes": 10273,
+      "sha256": "114ca025aeb96d5e83019b8dcc05cf22c3686636c0501bc60ae1c96b1f908789"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/evidence/public/d4-source-captures.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/evidence/public/d4-source-captures.md",
+      "bytes": 2128,
+      "sha256": "e3f9313a3b0d860413f172374f3ce565170fc1cc4d31a2224d33b6c10f562ffe"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/evidence/public/official-source-extracts.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/evidence/public/official-source-extracts.md",
+      "bytes": 6089,
+      "sha256": "f3667fb00c1b82c936ac3c1ef234e674d50fcd5f22e0664a19da43deb233f28e"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/evidence/public/retrieval-attempts.txt",
+      "preserved_relative_path": "inherited/blind-review-design-D4/evidence/public/retrieval-attempts.txt",
+      "bytes": 1992,
+      "sha256": "852ce19158111481ca8583e5c2ac759aaf9d475e4970ea273aaebfd2067c0c42"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/iam-action-matrix.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/iam-action-matrix.csv",
+      "bytes": 46526,
+      "sha256": "2a35fee4d65831b5d3d0616a12cb9eeb9170bd50e0be9be7eb41e266576d4da3"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/iam-design.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/iam-design.md",
+      "bytes": 5202,
+      "sha256": "009f32a08a75aa99afef1e4e0ad8e0f5c7a23aa9a543dbc9aa964aea6949c5f4"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/operational-envelope.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/operational-envelope.md",
+      "bytes": 8290,
+      "sha256": "75c7e2e4d8e3c7e18724fbc1bd2453e921baa07c16f66090a21dc76c5e725f08"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/prior-review-excerpts.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/prior-review-excerpts.md",
+      "bytes": 1467,
+      "sha256": "13884722e964d0ff279dac61781fa8a0b0031fa0a2ba7bbd6743a5d4bd19feae"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/questions-only.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/questions-only.md",
+      "bytes": 2683,
+      "sha256": "8b31188a5f4c716182222aacbb08897881fee83a8048c76598ae87ff853484af"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/requirement-evidence-crosswalk.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/requirement-evidence-crosswalk.csv",
+      "bytes": 7158,
+      "sha256": "3809f654c13d0bf27e9db1552b228ccc3f98a11f99b2b2aecd9c2dee4246d6e5"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/requirements-ledger.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/requirements-ledger.csv",
+      "bytes": 29184,
+      "sha256": "e7f6673489f9e7d5ffb50987941d80e1d4cc68fd62d0bb8527981ed63c726f5f"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/review-form.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/review-form.md",
+      "bytes": 860,
+      "sha256": "fc833ca3a502597553890d8bd703fcf2e7a38ba16b555eee34a467179ce1da7a"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/revision-log.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/revision-log.md",
+      "bytes": 809,
+      "sha256": "336399756f99df5864869c810b629350ea5cfaa4feb19e6b4fae132114b6d213"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/rubric.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/rubric.md",
+      "bytes": 929,
+      "sha256": "7a3eb2157ec4fe897c5bd667fb409e70c2c98b73ca423d904e8d76c651b09987"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/scenario-recovery-D4.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/scenario-recovery-D4.csv",
+      "bytes": 35558,
+      "sha256": "d313bfe1090923ebc403609d2d8e3a4bdd81de3e26c24b2b134ae3b56fd311ff"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/source/formal-business-answer-original.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/source/formal-business-answer-original.md",
+      "bytes": 4562,
+      "sha256": "39fa3c156a8ca12b645d6e122c1b855f4c673866162f5f64dcd324386a9baa75"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/source/formal-supplement-original.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/source/formal-supplement-original.md",
+      "bytes": 7244,
+      "sha256": "da3774cf65e3b5bba2720e8d90d96b6d3915a25d2194d72f4802f5329139b063"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/source/requirements-original.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/source/requirements-original.md",
+      "bytes": 11363,
+      "sha256": "eb22e4cd55af843b4f23eea6a760273b1667e71b306aa82beb454025b848eb77"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/trust-boundaries.md",
+      "preserved_relative_path": "inherited/blind-review-design-D4/trust-boundaries.md",
+      "bytes": 2873,
+      "sha256": "b418049848695ee7701a325d58557709df3f29f910aee83b4f7cdf8e6a0ffd08"
+    },
+    {
+      "input_relative_path": "outputs/blind-review-design-D4/verification-protocol.csv",
+      "preserved_relative_path": "inherited/blind-review-design-D4/verification-protocol.csv",
+      "bytes": 27582,
+      "sha256": "b605a1bf1f5fead670abfd1f1d65e4c8979c1dff1d38b33a8f35dc7d8f3d4720"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/README.md",
+      "preserved_relative_path": "inherited/independent-review-D4/README.md",
+      "bytes": 381,
+      "sha256": "2fec7239ca98c6fca067c02ba666991a805dad0b6af16f3abf0327b1406a796f"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/hardgates.csv",
+      "preserved_relative_path": "inherited/independent-review-D4/hardgates.csv",
+      "bytes": 1935,
+      "sha256": "9881c7d948af304c3e0a42bb35a6deee878300fae642e907adf086abf9b5826a"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/hashes-after.json",
+      "preserved_relative_path": "inherited/independent-review-D4/hashes-after.json",
+      "bytes": 3432,
+      "sha256": "fa2ee48dc66878eb1ec94611e9f6d920f47f57999aaa06e996cf174c0a97d326"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/hashes-before.json",
+      "preserved_relative_path": "inherited/independent-review-D4/hashes-before.json",
+      "bytes": 3432,
+      "sha256": "fa2ee48dc66878eb1ec94611e9f6d920f47f57999aaa06e996cf174c0a97d326"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/metadata-clocks.json",
+      "preserved_relative_path": "inherited/independent-review-D4/metadata-clocks.json",
+      "bytes": 2269,
+      "sha256": "2561468e1dc8f57e9e8b0cfcc1f912a05687241a0df22670f0bb16c9819fa2ea"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/metadata-clocks.json.pre-clarification",
+      "preserved_relative_path": "inherited/independent-review-D4/metadata-clocks.json.pre-clarification",
+      "bytes": 1579,
+      "sha256": "c400b499bae07d06066b68d5a6f5ef1cd2e286d39a0deec70abe122cb1ec3b8a"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/scenario-findings.csv",
+      "preserved_relative_path": "inherited/independent-review-D4/scenario-findings.csv",
+      "bytes": 48623,
+      "sha256": "94c218205bc6c8295d732b83cd122b4344e4c278b1a10dfca21b030bfd0a124a"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/scores.csv",
+      "preserved_relative_path": "inherited/independent-review-D4/scores.csv",
+      "bytes": 4284,
+      "sha256": "3107fed22a2edac12c5f6122bb7a258167ea8b0741fd5710af3b69365f687204"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/scores.csv.pre-clarification",
+      "preserved_relative_path": "inherited/independent-review-D4/scores.csv.pre-clarification",
+      "bytes": 4284,
+      "sha256": "3107fed22a2edac12c5f6122bb7a258167ea8b0741fd5710af3b69365f687204"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/source-access-matrix.csv",
+      "preserved_relative_path": "inherited/independent-review-D4/source-access-matrix.csv",
+      "bytes": 12221,
+      "sha256": "75fe6bd281dad93538cd56b4647f82f711a7b6b39107aae6082ebb2f726ba0b3"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/step4-review.md",
+      "preserved_relative_path": "inherited/independent-review-D4/step4-review.md",
+      "bytes": 3132,
+      "sha256": "35479b49c2463ec0d62564553ff65b4382568ef13024bbe3d56774ad668e19d7"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/step5-clarification.md",
+      "preserved_relative_path": "inherited/independent-review-D4/step5-clarification.md",
+      "bytes": 1282,
+      "sha256": "d2457dfc4e34f48cd13a1d3e7f60f42410af28c77f942e1b2d62d275c27066f0"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/step5-rating4-desk-evidence.csv",
+      "preserved_relative_path": "inherited/independent-review-D4/step5-rating4-desk-evidence.csv",
+      "bytes": 4625,
+      "sha256": "16e573722b25ac928e42f31be03f5cbb002c736ad8987e58b039a9129e287525"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/step5-score.md",
+      "preserved_relative_path": "inherited/independent-review-D4/step5-score.md",
+      "bytes": 3156,
+      "sha256": "04e9da2ef7a2f3ed7c6a36afa717ac9aed4446ed727d25d9b0a918a09e75b1c5"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/step5-score.md.pre-clarification",
+      "preserved_relative_path": "inherited/independent-review-D4/step5-score.md.pre-clarification",
+      "bytes": 2724,
+      "sha256": "c4981e332dbbe639db35e04f06897d6be5221321041727dd5ab1ddc163818c1e"
+    },
+    {
+      "input_relative_path": "outputs/independent-review-D4/unchanged-hash-report.json",
+      "preserved_relative_path": "inherited/independent-review-D4/unchanged-hash-report.json",
+      "bytes": 502,
+      "sha256": "1d8929c451b1560c9b8be77aaf6408959c3e4cf2f64ccd003612cc8f82555f2b"
+    }
+  ]
+}

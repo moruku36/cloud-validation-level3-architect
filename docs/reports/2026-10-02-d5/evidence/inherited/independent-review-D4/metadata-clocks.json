@@ -1,0 +1,62 @@
+{
+  "packet": "D4",
+  "review_scope": "final independent Step4 then separate Step5; desk A/B only",
+  "requested_reviewer": "GPT-6.1 Sol Medium",
+  "runtime_identity_verified": false,
+  "actual_runtime_identity": "not independently verified; no inferred model/settings identity",
+  "forbidden_model": "Astra not selected or invoked by this reviewer",
+  "designer_distinct": "packet represented anonymous distinct designer; identities not accessed",
+  "step4": {
+    "started_utc": "2026-10-01T09:36:51Z",
+    "deadline_utc": "2026-10-01T11:36:51Z",
+    "completed_utc": "2026-10-01T09:42:16Z",
+    "budget_minutes": 120,
+    "answer_wait_excluded_seconds": 0,
+    "execution_state": "completed within fixed budget"
+  },
+  "step5": {
+    "started_utc": "2026-10-01T09:42:16Z",
+    "deadline_utc": "2026-10-01T11:12:16Z",
+    "completed_utc": "2026-10-01T09:45:07.162827+00:00",
+    "budget_minutes": 90,
+    "answer_wait_excluded_seconds": 0,
+    "execution_state": "completed within fixed budget",
+    "clarification": {
+      "started_utc": "2026-10-01T09:47:07+00:00",
+      "completed_utc": "2026-10-01T09:48:34.338302+00:00",
+      "additional_active_seconds": 87.338,
+      "same_original_deadline_utc": "2026-10-01T11:12:16Z",
+      "deadline_extended": false,
+      "score_changed": false,
+      "interpretation": "No live execution prerequisite for A/B5; blanket wording withdrawn; rating4 supported by remaining desk specificity",
+      "pre_clarification_records": [
+        "step5-score.md.pre-clarification",
+        "scores.csv.pre-clarification",
+        "metadata-clocks.json.pre-clarification"
+      ]
+    },
+    "final_completed_utc": "2026-10-01T09:48:34.338302+00:00"
+  },
+  "quality_score": 78,
+  "category_ratings": [
+    4,
+    4,
+    4,
+    4,
+    4,
+    3,
+    4,
+    4,
+    4,
+    4,
+    4
+  ],
+  "quality_acceptance": "NOT PASS",
+  "environment_acceptance": "HOLD",
+  "public_research_only": true,
+  "source_access_time_precision": "Tool call receipt sequence09:38-09:40 UTC; individual UTC instants not instrumented, do not fabricate",
+  "source_captures": "Normalized reviewer observations, not full HTML or source content exports",
+  "no_prior_numeric_scores_read": true,
+  "no_live_tests_or_resources": true,
+  "human_fields_blank": true
+}

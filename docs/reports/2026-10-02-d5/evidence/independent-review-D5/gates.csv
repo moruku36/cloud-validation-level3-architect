@@ -1,0 +1,7 @@
+gate,state,reason
+G1,PASS,"All24 fixed original requirements trace through submitted current/provenance anchors; geography unanswered where needed; no inferred domestic storage. Generic current anchor navigation is P2."
+G2,PASS,"Known source rates/narrow calculations/proposed quantities/unknown totals/FX andusage sensitivities separated; no cap result from partial compute."
+G3,HOLD,"All10 data/copy classes andrestore predicate present; approved deletion-event/linkage-retention/independentcustody/vendorrecipient boundary absent. Implementable deletion/backup/audit closure not settled."
+G4,HOLD,"Unique work andunattended limits clear; accountable named primary/backup,actualhours/leave coverage andpreapprovedrecovery authority absent. Proposed automation remains disabled."
+G5,PASS,"RTO impactonset through300sstable<=1800 andRPO confirmedgap<=300 defined; logicaldecision->4h andregionexclusion distinct; unverified explicit."
+G6,PASS,"U not treated asfact/free/zero; native softmaximum,partialprice,proposedresources andunexecutedtests limitations disclosed."

@@ -397,3 +397,9 @@ terraform -chdir=infra/c1/fixture validate
   - [A-3 実行記録](evaluation/A-3-run.md) / [A-2 実行記録](evaluation/A-2-run.md) / [A-1 実行記録](evaluation/A-1-run.md)
   - [人間の介入記録台帳](evaluation/human-intervention.md) : AIの自律性と人間介入の記録
   - [評価ルーブリック](evaluation/rubric.md) : 採点基準定義
+
+## D5継承改善報告の追加（2026-10-02）
+
+[D5索引・証拠](docs/reports/2026-10-02-d5/README.md) · [日本語報告](docs/reports/2026-10-02-d5/FINAL-REPORT.ja.md) · [English report](docs/reports/2026-10-02-d5/FINAL-REPORT.en.md) · [日本語考察](docs/reports/2026-10-02-d5/DISCUSSION.ja.md) · [English discussion](docs/reports/2026-10-02-d5/DISCUSSION.en.md)
+
+旧D4を1回改善し、新規独立評価を1回実施したD5は **77/100、数値不合格・導入HOLD** です。Cost/Complexity3、G3/G4 HOLDを保持します。設計/レビューの要求設定はGPT-6.1 Sol High/Medium、実際のモデル・推論設定はUNKNOWNです。旧入力を固定した一方、新公開出典と新規評価者の影響は分離できず、モデル能力の制御比較ではありません。旧D4の78点、別途報告された全新規73点、追加条件の未採点最終報告は区別しています。旧報告・点数は変更せず、本公開はクラウド実行を承認しません。

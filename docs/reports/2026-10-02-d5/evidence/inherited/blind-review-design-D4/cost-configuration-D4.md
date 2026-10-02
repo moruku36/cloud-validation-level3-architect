@@ -1,0 +1,29 @@
+# Conditional bill of quantities — D04
+
+conditional-bill-of-quantities.csv C01..C13 repeats a common physical/logical quantity basis for each provider (39 rows). Quantities are explicit design proposals, not owner-approved use or service-feature fit. Meter/unit examples in any provider row are labeled by actual vendor and must not become another provider's rates. Existing cost-ledger.csv preserves narrow evidenced D3 meters; this bill supplies the missing conditional sizing. Neither file is a complete quote.
+
+## Common alternative configurations
+
+P2 proposes two app replicas, each 1 vCPU/2 GiB. P4 proposes four warm replicas for logical surviving-zone headroom under the unmeasured 50 RPS per replica assumption. SQL proposes a 2 vCPU/8 GiB primary and HA standby, with 50 GiB allocated storage, using a compatible vendor SKU. D176 proposes one 1 vCPU/1 GiB dev app for 176 hours; D730 runs it for 730 hours. Dev SQL proposes a non-HA 1 vCPU/2 GiB shape with 20 GiB storage if supported; otherwise a compatible shape and replacement quote remain U. Production billing uses 730 hours. Runtime differs from traffic cadence. Database stop/restart semantics can invalidate dev-hour savings. Managed runtimes do not guarantee user-controlled zone placement or surviving capacity.
+
+W176 proposes normal load of 10 RPS for 176 hours, giving 6.336M requests. W730 proposes 730 hours, giving 26.28M. A sensitivity of 22 monthly 100 RPS peaks lasting 15 minutes replaces normal 10 RPS and adds (100−10)×900×22 = 1.782M, for 8.118M or 28.062M dynamic requests if all reach origin. The 22 events are a costing proposal, not a workload fact. The separate 1000 RPS stress event is 0.9M requests in 15 minutes; replacing normal adds 0.891M. One million static page views and image requests are separate from dynamic RPS; cache hit and bytes mix remain U. MAU, object versions and mail quantities are proposed sensitivities.
+
+## Sourced arithmetic, alternatives not double-counted
+
+2026-10-01 official Cloud Run page identifies Tokyo Tier 1 and instance-based default USD0.000018/vCPU-second plus 0.000002/GiB-second. At1 vCPU/2 GiB, one730h instance=(0.000018+2×0.000002)×2628000=$57.816; P2=$115.632; P4=$231.264. Always-max8=$462.528 is a quota-runtime sensitivity, not expected use. Including 2 rollout instances for the whole month would be10=$578.16; actual rollout runtime should replace that extreme. D1761 vCPU/1 GiB=$12.672; D730=$52.56. App-only P2+D176=$128.304, P4+D730=$283.824. CPU/memory only, all mandatory remaining components C02..C13 add U; no cap verdict. Region matching is supported narrowly for this table, not Cloud SQL or other services.
+Temporary 2 extra 1 vCPU/2 GiB app replicas for15m cost 2×900×0.000022=$0.0396;1000 RPS hypothetical 18 extra replicas=$0.3564 for15m but violate current max8 and connection 120 budget. These are hypothetical compute meters, not demand-derived capacity. Incident 2 extra replicas 2h=$0.3168 before all other charges. Request-based alternative costs CPUactive 0.000024/vCPU-s+memoryactive 0.0000025/GiB-s+requests 0.40/million plus minimum-instance idle charges as applicable. Do not add request fees to an instance-based workload. Request-only full W176+22 peaks=$3.2472 and W730+22 peaks=$11.2248 under the request-based alternative; CPU/memory/idle/network remain U. Current one100 RPS event=$0.036 and1000 RPS event=$0.36 request-only.
+AWS Route 53:proposed production 1 zone+1 Mstandardchargeablequeries=$0.50+$0.40=$0.90; dev1 zone+0.1 Mqueries=$0.54. Alias/query type rules affect actual amount. This narrow DNS quantity proposal is not total AWS cost. Azure Japan selector rate U, AWS Tokyo Fargate U, all provider compatible HA SQL prices U. Existing US East Fargate/Azure B1 ms examples are excluded as Japan SKU proxies.
+
+## All-in comparison and unknowns
+
+|Provider|Concrete conditional production+dev quantities|Sourced priced portion|Mandatory remainder|Tax-inclusive total|
+|---|---|---|---|---|
+|AWS|P2/P4 + D176/D730 and C02..C13|DNS example $1.44 production + dev|Tokyo app, HA SQL, storage, backups/PITR, IO, objects/versions, egress, LB/WAF/CDN/IP/NAT/private paths, queue/mail, identity/keys/secrets, telemetry/probes/audit, CI/state, incident/DR, tax/FX|U|
+|Azure|Same quantities with compatible Japan East SKU|No matched rate|All C01..C13; feature/shape fit and subscription/licensing also U|U|
+|GCP|Same quantities with compatible Tokyo SKU|CPU/memory app-only $128.304 P2+D176 or $283.824 P4+D730|All non-app components C02..C13; request-based alternative separate|U|
+
+FXshock 20% multiplies the converted priced portion by1.2 but leaves U remainder U. Dev730/176=4.1477 runtime multiplier; storage/backups/keys/network fixed charges cannot be scaled by runtime automatically. Doubling cost likewise does not produce finite total from U. Optional warmDR adds app/SQL standby/copy/transfer; no regional 30m/5m guarantee. Proposed¥80k/90k warnings and20% reserve require owner acceptance and a complete invoice-equivalent quote. Tax-inclusive¥100000 cap already includes required production+dev fees; labor/domain/paid human support excluded and separately recorded. Actual tax/billingFX remains U; no generic 10% multiplication.
+
+## Operations quantities outside cap
+
+Retained proposal 32–64 role hours/month:platform/security 12–20;app/auth/probe/mail 8–16;backup/deletion/monitor 8–16;drill/training 4–12. One-time conditional implementation/migration 40–80 person hours; initial restore/deletion rehearsal 16–32; incident 2–8 person hours each, vendor delays separate. Rates U; named primary/backup allocation, available capacity and leave coverage U. The same infrastructure specialist may cover multiple rows, so these must be reconciled to actual staffing before approval. No purchased night coverage assumed. Build/drill cloud runtime counted inC11 where selected; no work or resources executed.

@@ -1,0 +1,23 @@
+{
+  "kind": "Documentation publication validation; not a new experiment or assessment",
+  "date": "2026-10-02",
+  "base_main": "a91e7c6b47e2f7580eaf19fcd69ab21038506747",
+  "source_files_byte_exact": 156,
+  "D5_content_files_hash_verified": 84,
+  "D5_manifest_sha256": "3d3b4bb79305606902762ae91f150beba2d33f30e607196366f62e9b6db94072",
+  "rubric_sha256": "7a3eb2157ec4fe897c5bd667fb409e70c2c98b73ca423d904e8d76c651b09987",
+  "independent_score_arithmetic": 77,
+  "requirements_count": 24,
+  "independent_scenarios": 35,
+  "human_score_fields_blank": true,
+  "new_relative_links_resolve": true,
+  "preserved_historical_links_mapped": 30,
+  "targeted_secret_internal_reference_scan": "PASS",
+  "bilingual_tables_key_numbers_and_caveats_reviewed": true,
+  "prior_final_report_files_unchanged": true,
+  "original_design_and_review_not_modified": true,
+  "fresh73_evidence_limit": "Reported comparison context only; source packet not part of this publication or D5 assessment",
+  "cloud_actions": 0,
+  "new_experiments": 0,
+  "new_scoring": 0
+}

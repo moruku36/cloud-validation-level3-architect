@@ -1,0 +1,182 @@
+{
+  "kind": "Navigation only; frozen evidence is unchanged",
+  "entries": [
+    {
+      "file": "evidence/blind-review-design-D5/rubric.md",
+      "historical_link": "../docs/sources/supplement-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/supplement-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/rubric.md",
+      "historical_link": "../experiments/A/A-3/scores.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-3/scores.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/rubric.md",
+      "historical_link": "../docs/sources/supplement-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/supplement-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/rubric.md",
+      "historical_link": "../experiments/A/A-3/scores.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-3/scores.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "sources/supplement-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/supplement-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "execution-policy.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/execution-policy.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/requirements.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/requirements.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/questions.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/questions.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/assumptions-risks.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/assumptions-risks.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/traceability.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/traceability.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "sources/business-answers-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/business-answers-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/source/requirements-original.md",
+      "historical_link": "[public issue link redacted]",
+      "resolution": "Source deliberately redacted this link; no public target reconstructed"
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "sources/supplement-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/supplement-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "execution-policy.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/execution-policy.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/requirements.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/requirements.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/questions.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/questions.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/assumptions-risks.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/assumptions-risks.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/traceability.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/traceability.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "sources/business-answers-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/business-answers-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/blind-review-design-D5/inherited-design-D4/source/requirements-original.md",
+      "historical_link": "[public issue link redacted]",
+      "resolution": "Source deliberately redacted this link; no public target reconstructed"
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/rubric.md",
+      "historical_link": "../docs/sources/supplement-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/supplement-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/rubric.md",
+      "historical_link": "../experiments/A/A-3/scores.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-3/scores.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "sources/supplement-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/supplement-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "execution-policy.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/execution-policy.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/requirements.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/requirements.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/questions.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/questions.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/assumptions-risks.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/assumptions-risks.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "../experiments/A/A-1/traceability.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/experiments/A/A-1/traceability.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "sources/business-answers-2026-09-08.md",
+      "public_pinned_target": "https://github.com/moruku36/cloud-validation-level3-architect/blob/73ac52670aa4c8848b6f565236dd6094377c5613/docs/sources/business-answers-2026-09-08.md",
+      "resolution": "Preserved original relative link; use pinned source target. Historical scores are not D5 scores."
+    },
+    {
+      "file": "evidence/inherited/blind-review-design-D4/source/requirements-original.md",
+      "historical_link": "[public issue link redacted]",
+      "resolution": "Source deliberately redacted this link; no public target reconstructed"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Independent review instructions
+
+Use unchanged rubric.md and all24 original requirement rows/formal answers/supplement. Inspect D4 conditional proposals and source failures; keep designer-assessable design quality separate from absent owner input, source access and unauthorized live evidence. Prior finding excerpts contain no numeric outcome. Do not follow historical scoring links in rubric.md. Do not treat an explicit U as zero or a proposed quantity as owner-approved/observed.
+Record desk scenarios and design findings separately from owner/source/live blockers. Check workload consistency, warm capacity/managed-runtime placement, all-in fees, provider-native IAM deny semantics, deletion replay, no-human scope and exact trace anchors. No score assigned by author; human fields blank. Do not create resources, run tests, publish or progress phases.
