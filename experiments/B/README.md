@@ -1,5 +1,9 @@
 # LEVEL3-B 結果報告：開発者向けサマリー
 
+> Historical September workflow guide. For the latest research result and reading path, start with [English overview](../../README.md) or [日本語の概要](../../README.ja.md).
+> 9月時点の工程案内です。本文の「最新」「次工程」は当時の状態を指します。現在の研究結果は上記の概要を参照してください。
+
+
 **最新：[必要4群の限定設計補完LC1](B-2/limited-completion/README.md)**。条件付き文書補完完了・未採点、既存66/66/66点は変更なし。次はC-0承認票の具体化・限定実験可否判断（文書のみ）を推奨。以下はB-3時点の説明。
 
 **B-1〜B-3の文書工程は完了。設計は66点で不合格、最終選定・人間の採用承認は保留です。**
