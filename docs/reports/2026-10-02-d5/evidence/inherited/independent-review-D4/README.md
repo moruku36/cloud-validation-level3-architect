@@ -1,0 +1,1 @@
+Independent final D4 review. Start with step5-score.md and step4-review.md. Evidence: scores.csv (human fields blank), hardgates.csv, scenario-findings.csv (35 rows), source-access-matrix.csv (literal accessed/failed/not inspected), metadata-clocks.json, unchanged-hash-report.json and before/after hash inventories. No design authoring, live execution, publication or next stage.

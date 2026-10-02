@@ -1,0 +1,17 @@
+url,status,observed_UTC_2026-10-02,scope,evidence_origin
+https://docs.cloud.google.com/run/docs/about-instance-autoscaling,SUCCESS,12:12:05 observed batch start,CPU/concurrency not memory; queued latency and native maximum exceptions; updated2026-09-30.,FRESH independent reviewer
+https://docs.cloud.google.com/run/docs/configuring/max-instances,SUCCESS,12:12:05 observed batch start,Service/revision maximum and transient physical excess; no hard invoice cap.,FRESH independent reviewer
+https://learn.microsoft.com/en-us/azure/reliability/reliability-container-apps,SUCCESS,12:12:05 observed batch start,Creation-time zone redundancy/VNet; min2 and transparent placement; exact Japan fit U.,FRESH independent reviewer
+https://learn.microsoft.com/en-us/azure/reliability/reliability-database-postgresql,SUCCESS,12:12:05 observed batch start,Zone HA synchronous standby; exact SKU/region U.,FRESH independent reviewer
+https://docs.aws.amazon.com/AmazonRDS/latest/UserGuide/Concepts.MultiAZ.Failover.html,SUCCESS,12:12:05–12:13:59 window,Typical60–120s variable; DNS/reconnect; not recovery guarantee.,FRESH independent reviewer
+https://docs.cloud.google.com/sql/docs/postgres/high-availability,SUCCESS,12:12:05–12:13:59 window,Regional synchronous HA and approximately60s connection outage; prerequisites.,FRESH independent reviewer
+https://cloud.google.com/run/pricing,SUCCESS,12:12:05–12:13:59 window,Tokyo instance-based CPU .000018 USD/vCPU-second;memory .000002 USD/GiB-second; narrow rate.,FRESH independent reviewer
+https://cloud.google.com/sql/pricing?hl=ja,FAILURE,12:12:05–12:13:59 window,Internal tool error; no matching regional SQL price.,FRESH independent reviewer
+https://www.postgresql.org/docs/current/sql-createrole.html,SUCCESS,12:13:59 observed batch start,PostgreSQL18 connection limits approximately enforced; superusers exempt; concurrent admission may reject both.,FRESH independent reviewer
+https://docs.aws.amazon.com/AmazonS3/latest/userguide/replication-what-is-isnot-replicated.html,SUCCESS,12:13:59 observed batch start,Version-specific deletion not replicated; explicit destination purge required.,FRESH independent reviewer
+https://docs.aws.amazon.com/kms/latest/developerguide/deleting-keys.html,SUCCESS,12:13:59 observed batch start,Pending keys unusable;7–30d wait plus possible24h; destruction irreversible.,FRESH independent reviewer
+https://learn.microsoft.com/en-us/azure/role-based-access-control/role-definitions,SUCCESS,12:13:59 observed batch start,NotActions is not deny; other grants may allow.,FRESH independent reviewer
+https://www.postgresql.org/docs/current/runtime-config-connection.html,SUCCESS,12:13:59–12:15:57 window,Reserved slots distinct; managed platform configuration not proved.,FRESH independent reviewer
+https://aws.amazon.com/fargate/pricing/,PARTIAL,12:13:59–12:15:57 window,HTML retrieved; Tokyo search no match; examples not substituted.,FRESH independent reviewer
+https://azure.microsoft.com/en-us/pricing/details/postgresql/flexible-server/,PARTIAL,12:13:59–12:15:57 window,HTML retrieved; Japan East search no match; selector rate unavailable.,FRESH independent reviewer
+evidence/public/d4-source-access-matrix.csv;d5-source-access-matrix.csv;captures;official-source-extracts.md,INHERITED,Frozen packet dates retained,Earlier dated sources not assumed refreshed; other pages NOT_INSPECTED freshly,FROZEN submitted provenance

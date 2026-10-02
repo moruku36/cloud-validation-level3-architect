@@ -1,0 +1,13 @@
+{
+  "start_utc": "2026-10-02 12:08:17 UTC",
+  "deadline_utc": "2026-10-02 14:08:17 UTC",
+  "finalization_utc": "2026-10-02 12:25:18 UTC",
+  "elapsed_seconds": 1021,
+  "cap_seconds": 7200,
+  "waiting_seconds": 0,
+  "timeout": false,
+  "all_content_files_directly_read": 84,
+  "scenario_rows": 35,
+  "score_assigned": false,
+  "disclosure_saved_and_sent_before_score": true
+}

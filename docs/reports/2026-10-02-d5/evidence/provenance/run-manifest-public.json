@@ -1,0 +1,154 @@
+{
+  "trial": "D5",
+  "completed_core_at_utc": "2026-10-02 12:30:23 UTC",
+  "route": "ONE inherited practical improvement, not a clean-room model comparison",
+  "author_revisions": 1,
+  "independent_review_passes": 1,
+  "post_freeze_design_edits": 0,
+  "post_review_design_repairs": 0,
+  "extra_trials": 0,
+  "frozen_input_commit": "73ac52670aa4c8848b6f565236dd6094377c5613",
+  "input_commit_basis": "Original read-only main confirmation on2026-10-01; frozen inherited source, not a new2026-10-02 main check",
+  "original_design_content_files_read": 34,
+  "original_review_files_read": 16,
+  "original_D4_manifest_sha256": "9572c63a74407d6bcc19aa8a96ba374111def6db22a51b0cb57cc4f313fbd29f",
+  "frozen_design_manifest_sha256": "3d3b4bb79305606902762ae91f150beba2d33f30e607196366f62e9b6db94072",
+  "rubric_sha256": "7a3eb2157ec4fe897c5bd667fb409e70c2c98b73ca423d904e8d76c651b09987",
+  "frozen_content_files": 84,
+  "frozen_content_bytes": 771857,
+  "required24_IDs_exact": true,
+  "three_original_source_bytes_exact": true,
+  "design_source_records": 56,
+  "new_design_source_records": 27,
+  "new_design_source_statuses": {
+    "ACCESSED": 18,
+    "ACCESSED_PARTIAL": 4,
+    "FAILED": 5
+  },
+  "inherited_source_records_not_reopened_by_designer": 29,
+  "reviewer_fresh_public_URLs": 15,
+  "reviewer_fresh_statuses": {
+    "SUCCESS": 12,
+    "PARTIAL": 2,
+    "FAILURE": 1
+  },
+  "direct_read_coverage": 84,
+  "scenario_audit_rows": 35,
+  "designer_requested": {
+    "model": "GPT-6.1 Sol",
+    "reasoning": "High"
+  },
+  "reviewer_requested": {
+    "model": "GPT-6.1 Sol",
+    "reasoning": "Medium"
+  },
+  "actual_model_and_reasoning": "UNKNOWN for both; no runtime attestation",
+  "new_owner_answers": 0,
+  "October2_expanded_answers_included": false,
+  "unrelated_fresh_design_trial_included": false,
+  "self_score": null,
+  "human_scores": "blank",
+  "independent_total": 77.0,
+  "category_ratings": {
+    "Requirements": 4,
+    "Architecture": 4,
+    "Security/IAM": 4,
+    "Availability": 4,
+    "Scalability": 4,
+    "Cost": 3,
+    "Operations": 4,
+    "Backup/DR": 4,
+    "Observability": 4,
+    "Complexity": 3,
+    "Vendor lock-in/migration": 4
+  },
+  "threshold_checks": {
+    "total_at_least80": false,
+    "strictly_over80_separate": false,
+    "all11_at_least3": true,
+    "six_key_categories_at_least4": false,
+    "no_unresolved_adoption_P0": false,
+    "all6_hardgates_PASS": false
+  },
+  "hardgates": {
+    "G1": "PASS",
+    "G2": "PASS",
+    "G3": "HOLD",
+    "G4": "HOLD",
+    "G5": "PASS",
+    "G6": "PASS"
+  },
+  "desk_P0_count": 0,
+  "adoption_unresolved_P0_classes": [
+    "OWNER",
+    "SOURCE ACCESS",
+    "UNAUTHORIZED LIVE"
+  ],
+  "numerical_acceptance": "FAIL",
+  "adoption_decision": "HOLD",
+  "caps_minutes": {
+    "common_preparation": 240,
+    "Step1": 90,
+    "Step2": 180,
+    "Step3": 120,
+    "Step4": 120,
+    "Step5": 90
+  },
+  "reviewer_clocks": {
+    "step4": {
+      "start_utc": "2026-10-02 12:08:17 UTC",
+      "deadline_utc": "2026-10-02 14:08:17 UTC",
+      "end_utc": "2026-10-02 12:25:18 UTC",
+      "elapsed_seconds": 1021,
+      "elapsed": "17m01s",
+      "cap_seconds": 7200,
+      "timeout": false
+    },
+    "step5": {
+      "start_utc": "2026-10-02 12:25:41 UTC",
+      "deadline_utc": "2026-10-02 13:55:41 UTC",
+      "end_utc": "2026-10-02 12:30:23 UTC",
+      "elapsed_seconds": 282,
+      "elapsed": "4m42s",
+      "cap_seconds": 5400,
+      "timeout": false
+    },
+    "waiting_seconds": 0,
+    "clock_resets": 0,
+    "extensions": 0,
+    "scoring_passes": 1,
+    "final_metadata_write": "Immediately after the observed Step5 finalization clock; only routine clock/output manifest writes follow.",
+    "environment_action_failures": [],
+    "requested_configuration": "GPT-6.1 Sol Medium",
+    "actual_model": "UNKNOWN",
+    "actual_reasoning": "UNKNOWN",
+    "actual_backend": "UNKNOWN",
+    "actual_seed": "UNKNOWN"
+  },
+  "common_preparation_root_seconds": 291,
+  "common_preparation_designer_seconds": 213,
+  "core_root_wall_seconds": 3648,
+  "core_root_first_observed_utc": "2026-10-02 11:29:35 UTC",
+  "answer_wait_seconds": 0,
+  "silent_extensions": 0,
+  "timeout": false,
+  "original_D4_total": 78.0,
+  "score_delta_D5_minus_D4": -1.0,
+  "comparison_limits": [
+    "Inherited author read original full reviewer scores/findings",
+    "New public first-party evidence/access and source failures differ",
+    "Fresh independent evaluator and actual runtime not attestably identical",
+    "New custom-control components alter architecture and costs",
+    "No full fresh model comparison; no causal model ranking"
+  ],
+  "kind": "Public derived run record; original frozen design and score unchanged",
+  "original_complete_archive": {
+    "sha256": "f65a7b12aaf1a49637febe2550a5a1b0e92ca964ad0476e7e58f5d07d7b38c6d",
+    "bytes": 891033,
+    "members": 180,
+    "preserved_privately": true
+  },
+  "original_report_sha256": "7fc17a594ff3d22d0a2a51fc964e1e561351002caff08715e77a6b87d80546fc",
+  "genuine_limits": "Desk results only; model/backend unverified; owner/source/live prerequisites remain open; current public evidence changes prevent controlled causal model comparison",
+  "publication_scope": "Documentation-only publication after scoring; no additional experiment or scoring"
+}

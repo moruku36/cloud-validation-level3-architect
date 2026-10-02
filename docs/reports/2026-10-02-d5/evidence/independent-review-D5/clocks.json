@@ -1,0 +1,31 @@
+{
+  "step4": {
+    "start_utc": "2026-10-02 12:08:17 UTC",
+    "deadline_utc": "2026-10-02 14:08:17 UTC",
+    "end_utc": "2026-10-02 12:25:18 UTC",
+    "elapsed_seconds": 1021,
+    "elapsed": "17m01s",
+    "cap_seconds": 7200,
+    "timeout": false
+  },
+  "step5": {
+    "start_utc": "2026-10-02 12:25:41 UTC",
+    "deadline_utc": "2026-10-02 13:55:41 UTC",
+    "end_utc": "2026-10-02 12:30:23 UTC",
+    "elapsed_seconds": 282,
+    "elapsed": "4m42s",
+    "cap_seconds": 5400,
+    "timeout": false
+  },
+  "waiting_seconds": 0,
+  "clock_resets": 0,
+  "extensions": 0,
+  "scoring_passes": 1,
+  "final_metadata_write": "Immediately after the observed Step5 finalization clock; only routine clock/output manifest writes follow.",
+  "environment_action_failures": [],
+  "requested_configuration": "GPT-6.1 Sol Medium",
+  "actual_model": "UNKNOWN",
+  "actual_reasoning": "UNKNOWN",
+  "actual_backend": "UNKNOWN",
+  "actual_seed": "UNKNOWN"
+}

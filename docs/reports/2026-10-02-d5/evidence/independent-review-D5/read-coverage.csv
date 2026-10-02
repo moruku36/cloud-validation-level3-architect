@@ -1,0 +1,85 @@
+path,bytes,coverage,truncation_repair
+README.md,4383,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+admission-and-rollout.md,5590,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+adoption-decisions.md,7467,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+answer-ledger-crosswalk.csv,2266,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+answer-ledger-note.md,996,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+api-journey-matrix.csv,3388,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+api-journey-verification.md,6161,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+architecture-options.md,13970,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+broker-enforcement.md,8099,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+conditional-bill-of-quantities.csv,22245,DIRECT FULL READ,Direct two chunks; exact earlier split line not retained in final ledger; full coverage established in tool transcript.
+cost-configuration-D5.md,7454,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+cost-ledger-correction-crosswalk.csv,2265,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+cost-ledger.csv,31937,DIRECT FULL READ,Direct two chunks; exact earlier split line not retained in final ledger; full coverage established in tool transcript.
+cost-operations-model.md,1596,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+cost-pricing-detail.md,11408,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+cover.md,800,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+d2-gap-disposition.md,404,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+d3-gap-disposition.md,1710,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+d5-desk-change-disposition.csv,3720,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+deletion-proof-ledger.csv,7895,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+evidence/public/d4-source-access-matrix.csv,10273,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+evidence/public/d4-source-captures.md,2128,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+evidence/public/d5-source-access-matrix.csv,24175,DIRECT FULL READ,"Direct lines1-22,23-end; repaired output truncation."
+evidence/public/d5-source-captures.md,2513,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+evidence/public/official-source-extracts.md,6089,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+evidence/public/retrieval-attempts.txt,1992,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+iam-action-matrix.csv,54379,DIRECT FULL READ,"Direct lines1-18,19-36,37-end; smaller slices repaired grouped output truncation."
+iam-design.md,5550,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/README.md,3945,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/adoption-decisions.md,7119,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/answer-ledger-crosswalk.csv,2266,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/answer-ledger-note.md,996,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/architecture-options.md,13677,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/conditional-bill-of-quantities.csv,19781,DIRECT FULL READ,Direct entire file cat after12:20 UTC; no truncation.
+inherited-design-D4/cost-configuration-D4.md,5910,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/cost-ledger.csv,5732,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/cost-operations-model.md,1248,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/cost-pricing-detail.md,11060,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/cover.md,1293,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/d2-gap-disposition.md,287,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/d3-gap-disposition.md,1593,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/deletion-proof-ledger.csv,5849,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/evidence/public/d4-source-access-matrix.csv,10273,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/evidence/public/d4-source-captures.md,2128,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/evidence/public/official-source-extracts.md,6089,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/evidence/public/retrieval-attempts.txt,1992,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/iam-action-matrix.csv,46526,DIRECT FULL READ,"Direct lines1-18,19-36,37-end; completed 12:20 UTC checkpoint window."
+inherited-design-D4/iam-design.md,5202,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/operational-envelope.md,8290,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/prior-review-excerpts.md,1467,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/questions-only.md,2683,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/requirement-evidence-crosswalk.csv,7158,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/requirements-ledger.csv,29184,DIRECT FULL READ,"Direct lines1-13,14-end."
+inherited-design-D4/review-form.md,860,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/revision-log.md,809,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/rubric.md,929,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/scenario-recovery-D4.csv,35558,DIRECT FULL READ,"Direct lines1-17,18-end; completed after12:20 UTC checkpoint."
+inherited-design-D4/source/formal-business-answer-original.md,4562,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/source/formal-supplement-original.md,7244,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/source/requirements-original.md,11363,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/trust-boundaries.md,2873,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+inherited-design-D4/verification-protocol.csv,27582,DIRECT FULL READ,"Direct lines1-13,14-end; completed after12:20 UTC checkpoint."
+migration-checkpoints.md,6502,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+operational-envelope.md,9035,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+operations-accounting.md,6316,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+prior-review-excerpts.md,1584,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+provider-adapters.md,7740,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+questions-only.md,2683,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+quote-completeness.csv,20247,DIRECT FULL READ,Direct two chunks; exact earlier split line not retained in final ledger; full coverage established in tool transcript.
+recovery-ledger-predicate.md,5696,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+requirement-evidence-crosswalk.csv,6601,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+requirements-ledger.csv,26090,DIRECT FULL READ,Direct full current CSV; initial grouped output repaired by smaller reads.
+review-form.md,955,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+review-gates.csv,1720,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+revision-log.md,877,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+rubric.md,929,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+scenario-controls.md,10933,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+scenario-recovery-D5.csv,44619,DIRECT FULL READ,"Direct lines1-12,13-24,25-end; smaller slices repaired grouped output truncation."
+source/formal-business-answer-original.md,4562,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+source/formal-supplement-original.md,7244,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+source/requirements-original.md,11363,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+timing-and-observability.md,8263,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+trust-boundaries.md,3221,DIRECT FULL READ,Direct full read completed; earlier grouped/truncated rendering repaired by smaller reads where applicable.
+verification-protocol.csv,40296,DIRECT FULL READ,"Direct lines1-18,19-end; smaller slices repaired grouped output truncation."

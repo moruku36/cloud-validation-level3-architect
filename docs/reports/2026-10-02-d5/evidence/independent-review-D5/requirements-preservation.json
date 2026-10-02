@@ -1,0 +1,12 @@
+{
+  "original24_count": 24,
+  "fixed_columns_equal": [
+    "REQ-ID",
+    "Original requirement text",
+    "Priority",
+    "Testable acceptance condition (source text)"
+  ],
+  "result": "ALL EXACTLY EQUAL",
+  "source_original_bytes_equal": true,
+  "human_scores_blank": true
+}

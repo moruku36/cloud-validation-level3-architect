@@ -1,0 +1,4 @@
+# D4 revision log
+
+Targeted final improvement of D3. D01 action/resource/condition/deny matrix and separation; D02 adopt/reject/alternative/revisit decisions and logical trust diagram; D03 numeric conditional envelope and31 scenario automatic/staffed recovery limits; D04 common conditional quantities and narrow sourced arithmetic; D05 fixed-fact/residual-question reconciliation and24 requirement anchors.
+D1–D3 and prior reviews unchanged. Original 24 requirement texts and source copies preserved; formal supplement remains disclosed structured summary. Exact required rubric copied from D2 unchanged. Source captures are normalized rendered observations with failures itemized; no source access limitations converted into invented feature/rate/fitness claims. No self-score and no live work performed.

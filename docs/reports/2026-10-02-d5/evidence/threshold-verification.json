@@ -1,0 +1,14 @@
+{
+  "independent_total": 77.0,
+  "weighted_arithmetic_matches": true,
+  "human_fields_blank": true,
+  "checks": {
+    "total_at_least80": false,
+    "strictly_over80_separate": false,
+    "all11_at_least3": true,
+    "six_key_categories_at_least4": false,
+    "no_unresolved_adoption_P0": false,
+    "all6_hardgates_PASS": false
+  },
+  "not_a_new_rating_or_rescoring": true
+}

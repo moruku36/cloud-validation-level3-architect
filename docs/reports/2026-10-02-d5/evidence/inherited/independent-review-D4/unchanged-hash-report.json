@@ -1,0 +1,14 @@
+{
+  "algorithm": "SHA-256",
+  "before_after_identical": true,
+  "all_frozen_manifest_entries_match": true,
+  "changed_files": [],
+  "manifest_mismatches": [],
+  "manifest_itself_unchanged": true,
+  "rubric_sha256": "7a3eb2157ec4fe897c5bd667fb409e70c2c98b73ca423d904e8d76c651b09987",
+  "required_rubric_match": true,
+  "frozen_file_count": 35,
+  "clarification_rechecked_utc": "2026-10-01T09:48:34.338302+00:00",
+  "clarification_before_after_identical": true,
+  "clarification_manifest_matched": true
+}

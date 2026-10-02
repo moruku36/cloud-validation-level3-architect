@@ -1,0 +1,15 @@
+# Independent D4 Step5 score
+
+Independent A/B desk-design score: **78/100** using unchanged11 rubric items and weight×rating/5. Human rating fields are blank. Ratings in rubric order: **4,4,4,4,4,3,4,4,4,4,4**. Weights:15,15,10,10,5,10,10,10,5,5,5; contributions12,12,8,8,4,6,8,8,4,4,4. No author or prior numeric ratings were used.
+
+Quality acceptance: **NOT PASS**. Total78<80. All11 categories>=3 PASS. Specified six category floors: Requirements4 PASS; Architecture4 PASS; Security4 PASS; Availability4 PASS; Cost3 FAIL; BackupDR4 PASS. Cost's3 reflects materially incomplete regional mandatory price/quote evidence; it does not require prohibited live resources or tests. Conditional plans earn4 where tradeoffs, numbers, evidence/stops and verification are sufficiently clear. A/B rating5 can be earned by sufficiently supported desk sensitivity analysis and appropriate verification plans; C/live results are not required. No category was capped at4 solely because prohibited live/C measurements were absent. The original blanket phrase about missing measurements preventing5 was incorrect and is withdrawn. Remaining desk specificity, rather than missing execution or owner approval, explains each4; see step5-clarification.md. Absent measurements separately prevent verified environment claims.
+
+Six gates: **G1 PASS / G2 PASS / G3 HOLD / G4 HOLD / G5 PASS / G6 PASS**. All-six-PASS criterion NOT MET. Gate details in hardgates.csv. Gate1/2/5/6 are evidence-handling/documentation passes, not proof of a fit environment. G3 needs all-copy deletion and ledger/audit boundary decisions/evidence; G4 needs accountable staffing/hours/coverage/preapproval.
+
+No-unresolved-P0 criterion: **HOLD / NOT MET**. No unreported destructive action, leak, falsified test or unauthorized relaxation was identified; no new desk-design P0 is established. Important P0 acceptance evidence remains unresolved: REQ07/08/16 deletion/residency/ledger OWNER_DECISION and vendor SOURCE_ACCESS; REQ12 budget SOURCE_ACCESS/OWNER_DECISION; REQ10/11/13 approved no-human authority OWNER_DECISION and recovery LIVE_MEASUREMENT. This is not a claim these requirements have failed actual execution.
+
+Environment acceptance: **HOLD; fitness/cap/deletion/no-human recovery not established**. A/B design quality and environment acceptance are separate. No resources, APIs, SDK/CLI, credentials, Terraform, tests/fault/load, publication or GitHub writes used. Unknown is not zero or PASS. No escalation/iteration or next phase authorized/performed.
+
+Remaining types: OWNER_DECISION, SOURCE_ACCESS, LIVE_MEASUREMENT and bounded DESIGN_DEFICIENCY. The latter includes provider-specific autoscale mapping (Cloud Run memory unsupported), hourly staleness detector mismatch, scheduled-key advance detector, corroborated probe bound, dedicated process/runtime and Public IP change specificity. Precise scenario/row evidence in scenario-findings.csv and Step4 report. This review records corrections without rewriting the design.
+
+Rubric SHA256:7a3eb2157ec4fe897c5bd667fb409e70c2c98b73ca423d904e8d76c651b09987. Frozen packet bytes/manifest unchanged; final hash report accompanies output.

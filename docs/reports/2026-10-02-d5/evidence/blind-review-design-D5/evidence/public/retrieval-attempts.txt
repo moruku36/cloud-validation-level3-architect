@@ -1,0 +1,32 @@
+D3 public official source retrieval receipts — 2026-10-01 UTC
+
+1. `https://cloud.google.com/sql/pricing?hl=ja`
+   - public web open: `Failed to fetch ... Content length is too large: 4194305+`
+   - retry: internal fetch error
+   - shell `curl -L --max-time 25`: `curl: (56) CONNECT tunnel failed, response 403`
+   - Result: no rate/selector capture; all Cloud SQL rates U.
+
+2. `https://cloud.google.com/run/pricing`
+   - public web open succeeded; exposed unit tables/region list; relevant normalized excerpts in official-source-extracts.md.
+   - shell curl returned CONNECT tunnel HTTP 403.
+
+3. `https://aws.amazon.com/fargate/pricing/`
+   - public web open succeeded; exposed metering basis, supported configuration and US East worked example. Region rate iframe not extracted; no Tokyo rate captured.
+   - shell curl returned CONNECT tunnel HTTP 403.
+
+4. `https://aws.amazon.com/route 53/pricing/`
+   - public web open succeeded; explicit hosted zone and standard query lines found; see direct source extract.
+   - shell curl returned CONNECT tunnel HTTP 403.
+
+5. `https://azure.microsoft.com/en-us/pricing/details/postgresql/flexible-server/`
+   - public web open returned page shell (1922 lines); table selector/rates absent; searches for `12.410`, `0.115`, and `Japan East` returned no match.
+   - shell curl returned CONNECT tunnel HTTP 403.
+   - Result: current Japan East price U; prior D2 value not re-used.
+
+6. ECB daily reference charts for USD and JPY
+   - public pages loaded; most recent completed common day displayed was 2026-09-30. Cross-rate formula and captured values in official-source-extracts.md.
+
+7. `https://www.nta.go.jp/english/taxes/consumption_tax/01.htm`
+   - public page shell loaded; text query did not expose a specific applicable cloud-provider invoice rule. Tax amount and treatment remain U.
+
+Public web retrieval is the only evidence channel used. No provider account, pricing calculator requiring account, cloud API, CLI, SDK or console was accessed.
