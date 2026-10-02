@@ -1,5 +1,9 @@
 # C-1準備 P1：実行順と承認境界
 
+> Historical September workflow guide. For the latest research result and reading path, start with [English overview](../../README.md) or [日本語の概要](../../README.ja.md).
+> 9月時点の工程案内です。本文の「最新」「次工程」は当時の状態を指します。現在の研究結果は上記の概要を参照してください。
+
+
 2026-09-13追記：[Console read-only確認](../../evaluation/C-1-console-readonly-check-run.md)は`INCOMPLETE`。Organizationsあり・member・all featuresを確認したが、20分枠超過のためIdentity Center詳細とCloudTrailを未確認のまま停止した。設定変更なし。続行には新しい閲覧承認が必要で、有効化・profile/login・preflightは未承認。
 
 2026-09-13追記：認証方式はIAM Identity Centerを第一候補とし、[有効化前審査](identity-center-precheck.md)、[Permission Set候補](identity-center-permission-sets.md)、[12ゲート](identity-center-activation-gates.md)を作成した。次はConsole read-only状態確認の個別承認であり、有効化・profile/login・AWS APIは未承認。
