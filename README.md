@@ -30,3 +30,9 @@ The repository tracks design reviews, cost comparisons, findings, handoff respon
 ## Detailed documentation
 
 The [Japanese guide](README.ja.md) retains the complete original setup instructions, configuration, examples, project status, and limitations. Supporting documents keep their existing language.
+
+## Final thought-experiment report (2026-10-02)
+
+[Report overview](docs/reports/2026-10-02-final/README.md) · [English report](docs/reports/2026-10-02-final/FINAL-REPORT.en.md) · [日本語レポート](docs/reports/2026-10-02-final/FINAL-REPORT.ja.md)
+
+The final report records the updated design assumptions, the AWS/Azure/GCP comparison, the partial cost model, and remaining evidence gaps. It also discusses the four recorded evaluations and conditions for a future model to reach the passing threshold. The desk study is complete; provider selection, production acceptance, live cloud testing, and budget compliance remain unproven. The historical D4 score of 78/100 and HOLD remains a record of the earlier requirements.
