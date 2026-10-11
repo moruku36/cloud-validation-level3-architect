@@ -29,6 +29,7 @@ Here, a pass would mean acceptance of a design deliverable against fixed conditi
 1. This README: purpose, result, which record to trust.
 2. [Methods and results](docs/research/METHODS-RESULTS.en.md): the September failures, the October follow-up, remaining limitations, and the proposed controlled next research.
 3. [Evidence appendix](docs/research/EVIDENCE.en.md): a curated index of sources, with scope gaps stated.
+4. [Opus 5.5 High/Medium additional pilot plan](docs/research/OPUS55-PILOT-PLAN.en.md): planned, not executed, date undecided. Not permission to start.
 
 ## Which record to trust
 

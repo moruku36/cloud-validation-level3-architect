@@ -29,6 +29,7 @@ Complexityの3は全項目の下限3を満たしますが、加重総合点を�
 1. 本README：目的、結果、どの記録を信頼するか。
 2. [方法と結果](docs/research/METHODS-RESULTS.ja.md)：9月の失敗、10月の追試、残る限界、統制した次の研究案。
 3. [証拠付録](docs/research/EVIDENCE.ja.md)：出典の絞り込み索引と、範囲外の事項。
+4. [Opus 5.5 High/Medium追加pilot計画](docs/research/OPUS55-PILOT-PLAN.ja.md)：予定・未実施、実施日未定。実施の許可ではない。
 
 ## どの記録を使うか
 
