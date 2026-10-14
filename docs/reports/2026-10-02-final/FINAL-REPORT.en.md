@@ -2,7 +2,25 @@
 
 Prepared: 2 October 2026, Japan time
 
-Language: [日本語](FINAL-REPORT.ja.md) | English · [Package guide](README.md)
+Language: [日本語](FINAL-REPORT.ja.md) | English · [Package guide](README.md) · [Overview](../../../README.md)
+
+## Reader summary (editorial addition, 2026-10-14)
+
+> This summary was added on 2026-10-14 for new readers. It is separate from the original 2026-10-02 publication that follows the dividing line, which is unchanged. It adds no result, scoring, or evidence. If the two ever differ, the original text below governs.
+
+| Question | Answer |
+|---|---|
+| What was this? | The final summary of the cloud architecture thought experiment as of 2 October 2026. It formalizes additional requirements (domestic personal data storage, automated east/west two-region DR, 90-day backups, 14-day PITR, etc.) and compares AWS, Azure, and GCP candidates on paper |
+| Scoring status | **Unscored for these additional conditions.** No new independent scoring was performed for the new requirements. Historical D4 scoring (78/100, HOLD on 1 Oct) is recorded as a legacy result under earlier conditions, not a score for the new conditions. Furthermore, these additional conditions were **NOT inputs to trial D5** |
+| Provider selection conclusion | **No cloud provider was selected.** None of the three providers demonstrated complete all-inclusive pricing, domestic storage compliance across email/auth/monitoring, or verified unattended recovery distinguishing regional outages from logical corruption |
+| Relationship to latest formal scoring | The authoritative latest independent score is in the [D5 report](../2026-10-02-d5/FINAL-REPORT.en.md) (2 Oct 2026, 77/100, numerical FAIL / adoption HOLD), maintained as a separate record |
+| What people must still decide | Legal and contractual responsibility for domestic storage and deletion deadlines across email and auth; pre-approved authority for unattended recovery; named primary and deputy owners; budget headroom, exchange rate, and tax tolerances |
+| What it does not show | Deployed infrastructure, measured SLOs, live deletion, billed costs, or production readiness. As a desk study, documented architectures and prices do not represent live operational success |
+| Codes | D4 and D5 are trial identifiers. For definitions and sources of all codes, see the [glossary](../../glossary.en.md) |
+
+---
+
+## Original 2026-10-02 publication (unchanged below this line)
 
 ## 1 Conclusion
 

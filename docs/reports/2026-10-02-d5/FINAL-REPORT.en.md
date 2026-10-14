@@ -2,6 +2,24 @@
 
 [日本語](FINAL-REPORT.ja.md) | [English](FINAL-REPORT.en.md) | [Index](README.md)
 
+## Reader summary (editorial addition, 2026-10-14)
+
+> This summary was added on 2026-10-14 for new readers. It is separate from the original 2026-10-02 publication that follows the dividing line, which is unchanged. It adds no result, scoring, or evidence. If the two ever differ, the original text below governs.
+
+| Question | Answer |
+|---|---|
+| What was this? | D5, a single inherited improvement trial: the D4 design was revised once, frozen anonymously, then scored once by a fresh independent reviewer. Desk assessment only; nothing was deployed |
+| Result | **77/100. Numerical FAIL. Adoption HOLD.** Neither at least 80 nor strictly above 80 was achieved |
+| Why no pass | Cost 3 (mandatory minimum 4); hardgates G3 and G4 on HOLD; unresolved owner, source-access, and unauthorized-live adoption prerequisites. Complexity 3 meets the general floor but lowers the weighted total |
+| Compared with D4 | D4 scored 78. Cost stayed 3, Complexity fell from 4 to 3, the other nine categories stayed 4. The comparison is not causal because new public sources, a fresh reviewer, and added controls differ |
+| What people must still decide | Deletion-start events, retention and custody of minimal linking information, responsibility for recipient copies (G3); named primary and deputy owners, approved hours, absence coverage, unattended recovery authority (G4); budget headroom, invoice FX, tax, and development hours |
+| What it does not show | Measured SLOs, legal compliance, billed costs, an actual operating team, or production readiness. Requested models (designer GPT-6.1 Sol High, reviewer GPT-6.1 Sol Medium) are not verified runtimes |
+| Codes | D5 is a trial identifier (no expansion is defined). D01–D06 are findings. G1–G6 are hardgates. S01–S35 are paper scenarios. See the [glossary](../../glossary.en.md) |
+
+---
+
+## Original 2026-10-02 publication (unchanged below this line)
+
 This public edition is based on the reader-facing editorial copy. It does not change the design, review, or assessment. The originals and complete 180-file archive remain privately preserved. Public evidence is limited to relevant project material; storage procedures and internal operational records are excluded.
 
 The independent desk assessment is **77/100**. Numerical acceptance under the original criteria is **FAIL**; the adoption decision is **HOLD**. Neither **at least 80 nor strictly above 80** was achieved. The trial ended after one design revision and one independent review/scoring pass following anonymous freezing. There were no post-score design changes, rescoring, additional trials, or model/reasoning switches.

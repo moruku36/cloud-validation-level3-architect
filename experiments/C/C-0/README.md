@@ -1,5 +1,8 @@
 # C-0：移行条件・限定実験・承認事項の整理
 
+> **読者向け注記（2026-10-14）。** 本書は2026年9月時点の過去の実験準備（C-0）の記録です。最新の研究結果・全体の案内は [README](../../../README.ja.md) / [English Overview](../../../README.md) を参照してください。
+> **Reader note (2026-10-14).** This is a historical record of experiment preparation (C-0) from September 2026. For the latest research results and repository guide, see the [English Overview](../../../README.md) or [日本語の概要](../../../README.ja.md).
+
 最新2026-09-12：[read-only preflight G1](../../../evaluation/C-1-read-only-preflight-run.md)はAPI前のprivate入力binding不足でINCOMPLETE、AWS API 0回。30分/6時間枠は未開始。再実施には設定準備後の新しい最大6回の個別承認が必要。[CP2承認反映](approval-2026-09-12.md)の範囲と失効条件を維持する。
 
 後続2026-09-11：[C-1準備P1](../../../infra/c1/README.md)で限定コード・ローカル検証を作成。C-1実証は未実施、CP1の承認欄は未承認のまま。以下は文書工程時点の記録を保持する。

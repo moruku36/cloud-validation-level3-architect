@@ -4,12 +4,18 @@
 
 This is a curated index, not an archive listing. It directs readers to key records in the pinned repository state (commit `0d67081cb994b69d10551df4346ab3757851ff2f`). The frozen reports and evidence it points to are unchanged.
 
+## How to read this appendix (added 2026-10-14)
+
+- **Bottom line first.** Every record below supports one conclusion: no trial passed, and the latest formal result is D5 at 77/100 (numerical FAIL, adoption HOLD). The evidence is desk-only.
+- **Use the tiers.** The first table says which kind of record you are looking at (authoritative latest, historical, separately unscored, or reported context only). Read the claims table second.
+- **Look up codes.** D1–D5 are October trial identifiers, T01–T16 are unexecuted validation tests, S01–S35 are paper review scenarios, and G1–G6 are the D5 hardgates. The [glossary](../glossary.en.md) gives the source of each meaning. This appendix itself is unchanged apart from this note.
+
 ## Which record to use
 
 | Tier | Meaning | Primary sources |
 |---|---|---|
 | Authoritative latest | D5 independent result: 77/100, FAIL, HOLD | [D5 report](../reports/2026-10-02-d5/FINAL-REPORT.en.md), [gates](../reports/2026-10-02-d5/evidence/independent-review-D5/gates.csv) |
-| Historical appendix | September A/B/C-1 (self-assessed) and D1–D4 | [A](../../experiments/A/final-report.md), [B](../../experiments/B/final-report.md), [C-1](../../evaluation/C-1-console-readonly-check-run.md), [final report](../reports/2026-10-02-final/FINAL-REPORT.en.md) |
+| Historical appendix | September A/B/C-1 (self-assessed) and D1–D4 | [A](../../experiments/A/final-report.en.md), [B](../../experiments/B/final-report.en.md), [C-1](../../evaluation/C-1-console-readonly-check-run.md), [final report](../reports/2026-10-02-final/FINAL-REPORT.en.md) |
 | Separately unscored | Requirements changed on 2 Oct; not D5 input | [final report, requirements section](../reports/2026-10-02-final/FINAL-REPORT.en.md) |
 | Reported context only | The separate fresh 73 | [discussion](../reports/2026-10-02-d5/DISCUSSION.en.md) |
 
@@ -17,8 +23,8 @@ This is a curated index, not an archive listing. It directs readers to key recor
 
 | Claim | Source | Note |
 |---|---|---|
-| A: self-score 61 → 65, 8–9 Sep | [A report](../../experiments/A/final-report.md), [scores](../../experiments/A/A-3/scores.md) | Self-assessed; human fields blank |
-| B: self-score 66, design FAIL, 10 Sep | [B report](../../experiments/B/final-report.md) | AWS preferred only as a reference; relative points are not a pass |
+| A: self-score 61 → 65, 8–9 Sep | [A report](../../experiments/A/final-report.en.md), [scores](../../experiments/A/A-3/scores.md) | Self-assessed; human fields blank |
+| B: self-score 66, design FAIL, 10 Sep | [B report](../../experiments/B/final-report.en.md) | AWS preferred only as a reference; relative points are not a pass |
 | C-1 INCOMPLETE, 13 Sep, 4 h 23 m 02 s | [C-1 record](../../evaluation/C-1-console-readonly-check-run.md) | Read-only; next-step wording is historical |
 | D1–D4 scores 53/72/69/78 and requested settings | [final report, section 9](../reports/2026-10-02-final/FINAL-REPORT.en.md) | Actual runtime unverified |
 | D4 ran 1 Oct (Step 4 started 09:36:51Z) | [D4 clocks](../reports/2026-10-02-d5/evidence/inherited/independent-review-D4/metadata-clocks.json) | D1–D3 clocks not public |
