@@ -1,7 +1,9 @@
 # LEVEL3-B 結果報告：開発者向けサマリー
 
-> Historical September workflow guide. For the latest research result and reading path, start with [English overview](../../README.md) or [日本語の概要](../../README.ja.md).
-> 9月時点の工程案内です。本文の「最新」「次工程」は当時の状態を指します。現在の研究結果は上記の概要を参照してください。
+日本語 | [English Overview](../../README.md) · [B英語報告](final-report.en.md)
+
+> **読者向け注記（2026-10-14）。** 本書は2026年9月時点の過去の作業工程案内です。最新の正式研究結果は **D5（2026-10-02、独立評価 77/100 FAIL/HOLD）** であり、[全体概要（日本語）](../../README.ja.md) または [English Overview](../../README.md) を参照してください。Bの全文報告は [B詳細レポート（日本語）](final-report.md) および [B Full English Report](final-report.en.md) をご覧ください。
+> **Reader note (2026-10-14).** This document is a historical guide to the September 2026 workflow stage. The authoritative latest research result is **D5 (2026-10-02, independent score 77/100 FAIL/HOLD)**; please start with the [English Overview](../../README.md) or [日本語の概要](../../README.ja.md). Full reports for Phase B are available at [B Japanese Report](final-report.md) and [B English Report](final-report.en.md).
 
 
 **最新：[必要4群の限定設計補完LC1](B-2/limited-completion/README.md)**。条件付き文書補完完了・未採点、既存66/66/66点は変更なし。次はC-0承認票の具体化・限定実験可否判断（文書のみ）を推奨。以下はB-3時点の説明。

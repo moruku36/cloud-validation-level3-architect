@@ -2,6 +2,13 @@
 
 [日本語](OPUS55-PILOT-PLAN.ja.md) | English · [Methods and results (research plan)](METHODS-RESULTS.en.md#5-conclusion-and-proposed-next-research) · [README](../../README.md)
 
+## In short (reader summary added 2026-10-14)
+
+- **Status:** planned, not executed, date undecided. This page is a planning record, not permission to start, and the sections below are unchanged.
+- **What it would test:** whether a new, separate pilot with a requested model "Opus 5.5" at High effort (and possibly Medium) produces a design that independent scoring judges worth studying further.
+- **What it is not:** not a same-condition comparison with D1–D5, not a model ranking, and not a prediction that any score will be reached. Actual runtime models and settings would be recorded separately as observed values and may stay UNKNOWN.
+- **What a model cannot supply:** owner decisions, missing price evidence, and live demonstrations, which is why the hardgates G3 and G4 depend on people, not on model capability.
+
 ## 1. Status
 
 | Item | Value |
