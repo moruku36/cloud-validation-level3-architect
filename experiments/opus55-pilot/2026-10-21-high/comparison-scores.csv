@@ -1,0 +1,12 @@
+category,weight,original_rating,additional_rating,original_weighted,additional_weighted,delta_additional_minus_original
+要件理解,15,5,4,15.0,12.0,-3.0
+Architecture妥当性,15,4,3,12.0,9.0,-3.0
+Security・IAM,10,4,3,8.0,6.0,-2.0
+Availability,10,4,3,8.0,6.0,-2.0
+Scalability,5,4,4,4.0,4.0,0.0
+Cost,10,4,3,8.0,6.0,-2.0
+Operations,10,4,4,8.0,8.0,0.0
+Backup・DR,10,4,3,8.0,6.0,-2.0
+Observability,5,4,3,4.0,3.0,-1.0
+Complexity,5,4,4,4.0,4.0,0.0
+Vendor lock-in・移行性,5,4,4,4.0,4.0,0.0

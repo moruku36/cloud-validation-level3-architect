@@ -1,0 +1,8 @@
+"gate_id","criterion","result","rationale","evidence_in_answer"
+"G1","100% requirement traceability and no assumed Japan residency","HOLD","24要件の文書内対応はある。国内保存を確定と捏造してはいないが、メール・外部監視・固定監査ログ等の所在地は未確認。全データ分類と保存経路の網羅も未完了のため固定文全体をPASSにはできない。","design-04.md §11.2 REQ-01〜24「未実施」; design-02.md §3.4 S-07「所在設定可否は未確認」、S-11「提供者仕様（U、Q-09）」、S-12「所在U」"
+"G2","Estimate / U / variable costs separated","PASS","机上設計として概算、Uの暫定枠、使用量/為替/増強の変動、除外費用を識別できる。PASSは実価格や10万円内への適合を承認するものではない。算定不整合はCost点に反映。","design-03.md §7.3「U（暫定枠）」; §7.5「外部監視SaaSの実価格（U）」「為替（150→180円）」; §7.7「除外費用」"
+"G3","All-copy deletion/backup/ledger/audit across every data class","FAIL","DB中心の削除設計はあるが、キュー・外部メール抑止/ログ・Trace・監視・監査の全コピーと保持/削除/台帳/監査の対応が揃わない。大阪DRに対し台帳は東京のみで再削除の可用性を閉じていない。未実施だけではなく設計の網羅欠落。","design-03.md §6.5「会員、認証、プロフィール、お気に入り、変更履歴、送信箱」; §6.8「キュー（Cloud Tasks）」「抑止リスト」; design-02.md §3.4 S-05「GCS 東京」、S-11「提供者仕様（U、Q-09）」"
+"G4","Owners / hours / coverage / no-human recovery","PASS","役割所有者、平日日中の稼働、夜間通知と即応義務なし、自動復旧対象/人手範囲、副担当育成を設計として明示。実要員の指名/同意や自動復旧の実証は未承認。","design-03.md §8.5「専任（インフラ）」「副担当」「平日日中対応」; §6.2「夜間・休日は重大通知を送るが即応義務はなく」"
+"G5","Measurable formal RTO/RPO with explicit unverified state","PASS","正式な起終点・1800秒/300秒・5分安定・確定データの照合・整合性・試験証跡を定義し、単一AZ全面等の未検証を明示。実測適合を意味しない。","design-04.md §9.2 V-09「5分連続成功の終了時刻」「≦1,800秒」、V-10「≦300秒」「欠損0件」; design-03.md §6.2 F-Z1「未検証」"
+"G6","Unknown never converted to fact / zero / success","PASS","価格・仕様・所在地・時間の未確認と全試験未実施を一貫して開示。RPO0は設計想定、Tier0追加費0は基本費用への内包でありUをゼロにしたものとは扱わない。予算適合の断定的な表現は概算条件下の比較と限定解釈する必要がある。","design.md §0.2「U」「ゼロ・成功・適合として扱わない」; design-03.md §6.2「0を想定」; design-04.md 冒頭「結果はすべて未実施」"
+
