@@ -1,0 +1,35 @@
+{
+  "trial": "OPUS55-HIGH-01",
+  "designer": {
+    "requested": {"model_alias": "opus", "effort": "high"},
+    "observed": {"model": "claude-opus-5-5 (all 18 assistant messages in subagent transcript)", "effort": "high (recorded in transcript entries and subagent metadata; the runtime's internal application of effort is not independently attestable)"},
+    "manager_clock_start_utc": "2026-10-21T11:26:56Z",
+    "transcript_first_last_utc": ["2026-10-21T11:27:39.907Z", "2026-10-21T11:49:35.986Z"],
+    "manager_clock_end_utc": "2026-10-21T11:49:40Z",
+    "harness_duration_ms": 1316096,
+    "usage": {"subagent_tokens_reported_by_harness": 205999, "tool_uses": 12, "per_type_token_breakdown": "UNKNOWN (transcript usage fields incomplete)", "monetary_cost": "UNKNOWN (subscription quota; not proven zero)"},
+    "tool_log": "Write x4 and Edit x7, all inside C:\tmp\o55d\out\; no Read/Glob/Grep/shell/web/subagent calls",
+    "end_reason": "Completed normally (SubagentHandback)",
+    "answer": "4 files, 68,676 characters total (limit 120,000); no model name or settings in text",
+    "regenerations": 0, "post_freeze_edits": 0
+  },
+  "evaluator": {
+    "requested": {"model_alias": "opus", "effort": "medium"},
+    "observed": {"model": "claude-opus-5-5 (17 messages)", "effort": "medium (transcript)"},
+    "transcript_first_last_utc": ["2026-10-21T11:50:09.421Z", "2026-10-21T11:54:43.273Z"],
+    "harness_duration_ms": 273865,
+    "usage": {"subagent_tokens_reported_by_harness": 169459, "tool_uses": 14},
+    "tool_log": "Glob/Read only inside C:\tmp\o55e\, Write only to C:\tmp\o55e\review\\",
+    "passes": 1, "pre_scoring": 0, "rescoring": 0,
+    "frozen_answer_hashes_after_review": "unchanged"
+  },
+  "result": {
+    "total": 83.0, "total_gt_80": true,
+    "ratings": {"Requirements": 5, "Architecture": 4, "Security/IAM": 4, "Availability": 4, "Scalability": 4, "Cost": 4, "Operations": 4, "Backup/DR": 4, "Observability": 4, "Complexity": 4, "Vendor lock-in": 4},
+    "gates": {"G1": "PASS", "G2": "HOLD", "G3": "HOLD", "G4": "PASS", "G5": "PASS", "G6": "FAIL"},
+    "p0": {"answer_p0": 0, "adoption_blocking_p0": "present (OWNER / SOURCE / LIVE)"},
+    "acceptance": "NOT PASSED (gates and P0 conditions not satisfied)",
+    "promising_threshold_met": false,
+    "medium_run": "Not started (not automatic; threshold not met)"
+  }
+}
