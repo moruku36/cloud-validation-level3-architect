@@ -1,0 +1,41 @@
+{
+  "trial": "OPUS55-HIGH-01",
+  "plan": "docs/research/OPUS55-PILOT-PLAN.ja.md (PR #28)",
+  "repo_commit_fixed": "ef8b022372c46b9f589ca5d06b2c4b4dae435921",
+  "later_changes_checked": "PR #29 (open, unmerged) adds only a reader summary to the plan; no condition change. Not used.",
+  "series": "New pilot. Not part of the D1-D5 inherited series; not a reproduction of D5.",
+  "owner_decisions_2026-10-21": {
+    "input_set": "2026-09-08 formal conditions (business answers + supplement + REQ-01..24). October 2 additional conditions NOT used.",
+    "evaluator": "New independent Claude subagent session",
+    "designer_web_access": "Prohibited",
+    "designer_isolation": "Independent subagent (no conversation inheritance)"
+  },
+  "requested": {
+    "designer": {"model": "Opus 5.5 (Agent tool model alias 'opus')", "effort": "high", "runs": 1},
+    "evaluator": {"model": "Opus 5.5 (Agent tool model alias 'opus')", "effort": "medium", "runs": 1}
+  },
+  "designer_scope": "B-equivalent desk design per supplement (compare AWS/Azure/GCP, select, design; no implementation)",
+  "tool_permissions": {
+    "designer": "Write/Edit within C:\tmp\o55d\out\ and Read of its own output only; no other read, search, shell, web or subagents",
+    "evaluator": "Read within C:\tmp\o55e\ and Write to C:\tmp\o55e\review\ only; no web, shell or subagents"
+  },
+  "reference_materials": "None beyond the packages. No web.",
+  "output_limit": "Designer answer <= 120,000 characters total (Markdown, Japanese)",
+  "budget": {
+    "billing": "Existing Claude subscription quota used by this Claude Code session. No API keys, pay-as-you-go, purchases or cloud resources.",
+    "time": "Designer: single run, no follow-up turns. Evaluator: single run.",
+    "tokens": "No hard token cap is enforceable through the tool; observed usage recorded where available, else UNKNOWN."
+  },
+  "termination": "Stop after one High design run and one independent evaluation. No retries, no regeneration, no pre-scoring, no post-scoring supplements, no Medium run. An aborted run is recorded as-is.",
+  "acceptance_conditions_unchanged": [
+    "Total >= 80",
+    "All 11 categories >= 3",
+    "Requirements, Architecture, Security/IAM, Availability, Cost, Backup/DR >= 4",
+    "No P0",
+    "All 6 gates (G1-G6) PASS"
+  ],
+  "reported_separately": "Whether total > 80 (strictly above 80)",
+  "promising_threshold_fixed_before_run": "'Promising' = all acceptance conditions satisfied. Used only for a recommendation about a Medium run; Medium is NOT started automatically.",
+  "excluded_from_designer": "Past designs, scores, review findings, repair hints, the pilot plan, master prompts, pass target, rubric/evaluation section, gates, docs/requirements.md diagram and notes.",
+  "excluded_from_evaluator": "Designer model/effort, requested score, past scores and results, links to past results."
+}

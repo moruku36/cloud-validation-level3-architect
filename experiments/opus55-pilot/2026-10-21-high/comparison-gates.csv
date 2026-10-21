@@ -1,0 +1,7 @@
+gate_id,unchanged_criterion,original_result,additional_result
+G1,100% requirement traceability and no assumed Japan residency,PASS,HOLD
+G2,Estimate / U / variable costs separated,HOLD,PASS
+G3,All-copy deletion/backup/ledger/audit across every data class,HOLD,FAIL
+G4,Owners / hours / coverage / no-human recovery,PASS,PASS
+G5,Measurable formal RTO/RPO with explicit unverified state,PASS,PASS
+G6,Unknown never converted to fact / zero / success,FAIL,PASS
