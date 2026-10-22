@@ -1,0 +1,13 @@
+{
+  "manager/build_packages.py": "aa107e9d742d520ddbe1ca7eb41e9462dbed432853e523ecb3ec2a64d51a9345",
+  "manager/extraction-record.json": "ba9b11388964438bbb1f33a35ace2c7284508f8fed71111c2420a61bf785783a",
+  "manifest.json": "f23369ee4cd1cf94c6853159749fce14cbbda0125d064a134e2b7b09736a686e",
+  "packages/designer/inputs.md": "782e99e9a4e6bf901ca2fa3a35fef9bac8bd8c4a128da3a5c3d0ae954c044bab",
+  "packages/designer/task.md": "244b2acd9e9be6ef29a33cebc81f0f018ad96c366a18a819b0ebb5e66ff09e97",
+  "packages/evaluator/gates.csv": "19ceafafb009e3e2ecd39f687d671f74523bc5aff2332a31700fae941ed08fcd",
+  "packages/evaluator/requirements-REQ01-24.md": "058aeeea0633db2f3d896389a84751de4504895f296fa00d966b4225429aa11f",
+  "packages/evaluator/rubric.md": "f44f2d8310198bb18e0db3abd29c6c56b29093bc85a0af0f43b7beccbfd18e2c",
+  "packages/evaluator/source-business-answers-2026-09-08.md": "f09b76c8910d85b157694b45660d54dc0cc76f985a8da66621375f28c1597dff",
+  "packages/evaluator/source-supplement-2026-09-08.md": "2797197853efd14d3f2fff16e5af1ab3a0cca57b751efeb529d37133084887c1",
+  "packages/evaluator/task.md": "e7bc39de96aa1fc79ca427765ec74669c7bbe5fc6f3a8108799b450210537496"
+}

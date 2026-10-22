@@ -4,7 +4,7 @@
 
 ## In short (reader summary added 2026-10-14)
 
-- **Status:** planned, not executed, date undecided. This page is a planning record, not permission to start, and the sections below are unchanged.
+- **Status update (22 Oct 2026):** the High run was **executed on 21 Oct** as OPUS55-HIGH-01 and independently scored twice (83 and 68; neither passed). See the [comparison report](../../experiments/opus55-pilot/2026-10-21-high/COMPARISON.ja.md) (Japanese). The Medium run is **not executed**. The sections below are the original plan, unchanged, and are not permission to start any further run.
 - **What it would test:** whether a new, separate pilot with a requested model "Opus 5.5" at High effort (and possibly Medium) produces a design that independent scoring judges worth studying further.
 - **What it is not:** not a same-condition comparison with D1–D5, not a model ranking, and not a prediction that any score will be reached. Actual runtime models and settings would be recorded separately as observed values and may stay UNKNOWN.
 - **What a model cannot supply:** owner decisions, missing price evidence, and live demonstrations, which is why the hardgates G3 and G4 depend on people, not on model capability.
@@ -13,7 +13,7 @@
 
 | Item | Value |
 |---|---|
-| Status | **Planned, not executed** |
+| Status | **High: executed 21 Oct (see status update above). Medium: planned, not executed** |
 | Execution date | Undecided |
 | Detailed budget, time/token limits, open owner conditions | Undecided |
 | Role | A planning record. **It is not permission to start.** No experiment is started now |

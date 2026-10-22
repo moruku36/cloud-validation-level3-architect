@@ -63,22 +63,15 @@ The scored October trials are desk designs: no environment was deployed and no l
 | 2 Oct | Single inherited improvement trial (latest formal result) | D5 | Designer GPT-6.1 Sol High; reviewer GPT-6.1 Sol Medium | Independent | **77**; numerical FAIL; adoption HOLD ❌ | [D5 report](docs/reports/2026-10-02-d5/FINAL-REPORT.en.md) |
 | Reported 2 Oct | Separate fresh trial | Not coded | Reported as Sol High; not verified | Independent (reported) | 73; known only from the publication handoff; **not** in the D1–D5 series | [discussion](docs/reports/2026-10-02-d5/DISCUSSION.en.md) |
 | 2 Oct | Changed requirements (90-day backups, 14-day PITR, automated regional recovery, and others) | Not coded | Not applicable | None | Unscored; not D5 input | [final report](docs/reports/2026-10-02-final/FINAL-REPORT.en.md) |
-| Not scheduled | Opus 5.5 High/Medium additional pilot | Not coded | Planned labels only | None yet | Planned, not executed ⏸ | [pilot plan](docs/research/OPUS55-PILOT-PLAN.en.md) |
+| 21 Oct | New pilot: Opus 5.5 High design, two independent reviews of one frozen answer | OPUS55-HIGH-01 | Designer Opus 5.5 / High (runtime log records claude-opus-5-5, high; not independently attestable). Additional reviewer requested GPT-6.1 Sol / Medium, observed model UNKNOWN | Independent, blinded | Original review **83**; additional Codex review **68**; neither passes all fixed conditions; adoption not approved ❌ | [comparison](experiments/opus55-pilot/2026-10-21-high/COMPARISON.ja.md) (Japanese) |
 
-All October trials are desk-only. The individual clocks for D1–D3 are unknown; only the D4 clocks (1 Oct) are public.
+All October trials are desk-only. The individual clocks for D1–D3 are unknown; only the D4 clocks (1 Oct) are public. The 21 Oct pilot is a separate new series, not a continuation of D1–D5.
 
 ## Evaluation flow
 
-```mermaid
-flowchart LR
-    R["24 requirements and formal answers"] --> D["Designer produces a desk design"]
-    D --> F["Design packet frozen - anonymous freeze documented for D4 and D5"]
-    F --> V["Independent reviewer scores once - 11 categories, 100 points"]
-    V --> G{"Acceptance checks - total, all categories, mandatory six, P0, six hardgates"}
-    G -->|"All met"| P["Design deliverable accepted - not production-ready"]
-    G -->|"Any unmet"| H["FAIL or HOLD - findings and open decisions"]
-    H --> O["Owner decisions, price evidence, live demonstrations - separately authorized and not performed"]
-```
+<img src="docs/diagrams/evaluation-flow.en.svg" alt="Desk-design evaluation flow: requirements, designer, frozen packet, independent review, acceptance checks, then accepted or FAIL/HOLD" width="420">
+
+<sub>Diagram source: [evaluation-flow.en.mmd](docs/diagrams/evaluation-flow.en.mmd), rendered with [Pele](https://pele.run/).</sub>
 
 *Figure: desk-design assessment flow; not deployed infrastructure. It describes the October independent trials. The September A and B stages were self-assessed.*
 
@@ -114,7 +107,7 @@ Do not infer expansions for these codes; the [glossary](docs/glossary.en.md) giv
 ## Two research phases
 
 - **September, initial attempt (self-assessed).** A-1 (8 Sep), A-2/A-3 (9 Sep) and B (10 Sep) produced self-scores of 61 → 65 (A) and 66 (B). The reports themselves record the shortcomings: omitted monitoring costs, and unproven deletion deadlines, recovery, and ownership/staffing constraints. C-1 (13 Sep) stopped incomplete. These are a different method from October, so the scores are not comparable ([A](experiments/A/final-report.md), [B](experiments/B/final-report.md), [C-1](evaluation/C-1-console-readonly-check-run.md)). Full English counterparts of the A and B reports are in [A English report](experiments/A/final-report.en.md) and [B English report](experiments/B/final-report.en.md).
-- **October, independent follow-up (1–2 Oct).** Independent review replaced self-scoring. Requirements/evidence mapping, an unknown-cost (U) ledger, and the IAM, deletion, and recovery specifics became more concrete, but nothing was proven live. The highest independent score is 78 (D4) and the latest is D5 at 77 (requested High). The separate fresh trial (73) and the unscored changed requirements are not part of this series. Actual models and applied reasoning settings are UNKNOWN.
+- **October, independent follow-up (1–2 Oct).** Independent review replaced self-scoring. Requirements/evidence mapping, an unknown-cost (U) ledger, and the IAM, deletion, and recovery specifics became more concrete, but nothing was proven live. The highest independent score within D1-D5 is 78 (D4) and the latest is D5 at 77 (requested High). The separate fresh trial (73) and the unscored changed requirements are not part of this series. Actual models and applied reasoning settings are UNKNOWN.
 
 ## Reading path
 
@@ -122,11 +115,11 @@ Do not infer expansions for these codes; the [glossary](docs/glossary.en.md) giv
 2. [Methods and results](docs/research/METHODS-RESULTS.en.md): the September failures, the October follow-up, remaining limitations, and the proposed controlled next research.
 3. [Evidence appendix](docs/research/EVIDENCE.en.md): a curated index of sources, with scope gaps stated.
 4. [Glossary](docs/glossary.en.md): what each code means and which source defines it.
-5. [Opus 5.5 High/Medium additional pilot plan](docs/research/OPUS55-PILOT-PLAN.en.md): planned, not executed, date undecided. Not permission to start.
+5. [Opus 5.5 pilot comparison, 21 Oct](experiments/opus55-pilot/2026-10-21-high/COMPARISON.ja.md) (Japanese): the executed High pilot and two independent reviews. The [pilot plan](docs/research/OPUS55-PILOT-PLAN.en.md) is the earlier planning record; the Medium run is still not executed. Not permission to start.
 
 ## Which record to trust
 
-- **Authoritative latest:** D5 (2 Oct 2026, independent review).
+- **Latest within D1-D5:** D5 (2 Oct 2026, independent review).
 - **Historical appendices:** the September A/B/C-1 workflow stages and the D1–D4 trials. The letters A/B/C are historical workflow stages, not the two research phases.
 - **Separately unscored:** the requirements changed on 2 Oct (90-day backups, 14-day PITR, automated regional recovery, and others) in the [final report](docs/reports/2026-10-02-final/FINAL-REPORT.en.md). They were not D5 input, and their existence is not evidence of a pass.
 - **Reported context only:** a separate fresh-trial score of 73, known only from the publication handoff. It is excluded from the D1–D5 series.
@@ -140,3 +133,30 @@ Model names are requested settings, not verified runtimes. D5 requested a Sol Hi
 **What this does not show.** These results do not show that AI replaces cloud architects, and they do not show production readiness. They show how far a desk design can go, and which business decisions and evidence it still depends on.
 
 Historical experiment reports, evaluation records, and frozen publication packages are preserved. The older B and C-1 navigation guides now point here. Older wording about next actions in archival reports is historical, not current authorization.
+
+## Latest verification conditions (as of 22 Oct 2026)
+
+| Item | Current state |
+|---|---|
+| Formal input for scoring | The 2026-09-08 formal answers and supplement, REQ-01 to REQ-24 ([requirements](docs/requirements.md)), the fixed 100-point rubric and six hardgates ([rubric](evaluation/rubric.md)). The 21 Oct pilot scored against the 2026-09-08 input |
+| Changed requirements of 2 Oct | 90-day backups, 14-day PITR, automated regional recovery and others. Recorded in the [final report](docs/reports/2026-10-02-final/FINAL-REPORT.en.md), **not** part of any scored input, and no trial has been scored against them |
+| Acceptance | Total >= 80, all 11 categories >= 3, six mandatory categories >= 4, no unresolved P0, all six hardgates PASS. |
+| Scope | Desk design only. No cloud environment is built and no live performance, recovery, deletion, or bill is measured |
+| Blinding | The additional reviewer of 21 Oct received no author model, effort, desired score, or earlier scores |
+| Runtime attestation | Requested settings are not verified runtimes. Observed values are recorded only where a log shows them, and are labeled UNKNOWN otherwise |
+
+## 21 October 2026: Opus 5.5 pilot and additional independent review
+
+One design (OPUS55-HIGH-01, requested Opus 5.5 / High) was frozen as four files and scored twice: by the original independent reviewer (83/100) and by one additional blinded Codex reviewer (68/100). The 15-point gap came mostly from stricter findings on quantity consistency, the cost formula, SLI handling of partial failure, and deletion of all copies when Tokyo is down. **Neither review passed all fixed acceptance conditions, and production adoption remains unapproved.** The gap does not establish design or model superiority, and this pilot is separate from D1–D5.
+
+<img src="docs/diagrams/pilot-comparison.en.svg" alt="Pilot flow: frozen inputs, Opus 5.5 High designer, frozen answer, two independent reviews scoring 83 and 68, comparison report, adoption not approved" width="360">
+
+The frozen answer proposes the desk design below (GCP, Tokyo primary and Osaka for DR storage; the answer's prices are unverified, memory-based values). It is an assessed design, **not** an adopted or deployed one.
+
+<img src="docs/diagrams/gcp-architecture.en.svg" alt="Architecture proposed in the frozen answer: external LB with Cloud Armor and CDN, Cloud Run api/admin/mail-worker/jobs, Cloud SQL primary and standby in other zones, GCS buckets in Tokyo, Osaka DR storage, external mail sending service" width="520">
+
+Details: [comparison report (Japanese)](experiments/opus55-pilot/2026-10-21-high/COMPARISON.ja.md), [frozen answer](experiments/opus55-pilot/2026-10-21-high/frozen-answer/design.md), [score table](experiments/opus55-pilot/2026-10-21-high/comparison-scores.csv), [gate table](experiments/opus55-pilot/2026-10-21-high/comparison-gates.csv). The planned Medium run has not been executed.
+
+## Diagrams
+
+Diagrams under [docs/diagrams](docs/diagrams/README.md) are written in Mermaid and rendered to SVG with [Pele](https://pele.run/).

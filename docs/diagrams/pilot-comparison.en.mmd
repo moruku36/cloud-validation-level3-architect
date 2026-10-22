@@ -1,0 +1,8 @@
+flowchart TD
+    I["Frozen inputs<br/>formal answers, supplement, REQ-01 to 24, rubric, gates<br/>2026-09-08 version"] --> A["Designer: Opus 5.5 / High<br/>OPUS55-HIGH-01"]
+    A --> FZ["Frozen answer<br/>4 files, hashes recorded"]
+    FZ --> R1["Original independent review<br/>83 / 100"]
+    FZ --> R2["Additional blinded Codex review<br/>68 / 100"]
+    R1 --> C["Comparison report<br/>difference -15, neither passes all conditions"]
+    R2 --> C
+    C --> X["Production adoption: not approved<br/>score gap is not a model ranking"]

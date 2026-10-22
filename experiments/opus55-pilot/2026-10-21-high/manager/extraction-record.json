@@ -1,0 +1,36 @@
+{
+  "source_commit": "ef8b022372c46b9f589ca5d06b2c4b4dae435921",
+  "sources_sha256": {
+    "docs/sources/business-answers-2026-09-08.md": "f09b76c8910d85b157694b45660d54dc0cc76f985a8da66621375f28c1597dff",
+    "docs/sources/supplement-2026-09-08.md": "2797197853efd14d3f2fff16e5af1ab3a0cca57b751efeb529d37133084887c1",
+    "docs/requirements.md": "c2e0c3892833087889d5b9c5ad30285e77c2735a99d5b4ad179f97f87e478957",
+    "evaluation/rubric.md": "e6a9cc4dd974e42c9a818e1b3398e5760946522a698952d092324f0945282d4e",
+    "docs/reports/2026-10-02-d5/evidence/blind-review-design-D5/review-gates.csv": "d30d8eeb50061f3707ba45051316582defc19039347538600c7bf77a43faf9d1"
+  },
+  "designer_package": {
+    "business_answers_sections_dropped": [
+      "## 今回の処理範囲"
+    ],
+    "supplement_sections_dropped": [
+      "## 評価",
+      "## 人間の介入",
+      "## GitHub集約",
+      "## 今回の範囲"
+    ],
+    "requirements_md": "only the REQ-01..REQ-24 table rows (header+separator+24) copied verbatim; preamble, mermaid diagram, notes and links dropped",
+    "retained_text": "verbatim; only per-file title lines replaced by package headings; line endings normalized CRLF->LF"
+  },
+  "evaluator_package": {
+    "sources": "business answers and supplement byte-identical copies (complete); REQ table rows verbatim",
+    "rubric": "evaluation/rubric.md with the sentence linking to historical A-3 scores removed and the supplement link replaced by a package reference",
+    "gates": "review-gates.csv columns gate_id + unchanged_criterion only; D5 design-plan, boundary and author_result columns dropped"
+  },
+  "package_sha256": {
+    "designer/inputs.md": "782e99e9a4e6bf901ca2fa3a35fef9bac8bd8c4a128da3a5c3d0ae954c044bab",
+    "evaluator/source-business-answers-2026-09-08.md": "f09b76c8910d85b157694b45660d54dc0cc76f985a8da66621375f28c1597dff",
+    "evaluator/source-supplement-2026-09-08.md": "2797197853efd14d3f2fff16e5af1ab3a0cca57b751efeb529d37133084887c1",
+    "evaluator/requirements-REQ01-24.md": "058aeeea0633db2f3d896389a84751de4504895f296fa00d966b4225429aa11f",
+    "evaluator/rubric.md": "f44f2d8310198bb18e0db3abd29c6c56b29093bc85a0af0f43b7beccbfd18e2c",
+    "evaluator/gates.csv": "19ceafafb009e3e2ecd39f687d671f74523bc5aff2332a31700fae941ed08fcd"
+  }
+}

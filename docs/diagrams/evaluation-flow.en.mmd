@@ -1,0 +1,8 @@
+flowchart TD
+    R["24 requirements and formal answers"] --> D["Designer produces a desk design"]
+    D --> F["Design packet frozen"]
+    F --> V["Independent reviewer scores once<br/>11 categories, 100 points"]
+    V --> G{"Acceptance checks<br/>total, all categories, mandatory six, P0, six hardgates"}
+    G -->|"All met"| P["Design deliverable accepted<br/>not production-ready"]
+    G -->|"Any unmet"| H["FAIL or HOLD<br/>findings and open decisions"]
+    H --> O["Owner decisions, price evidence, live demonstrations<br/>separately authorized, not performed"]
