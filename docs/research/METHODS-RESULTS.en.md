@@ -2,6 +2,25 @@
 
 [日本語](METHODS-RESULTS.ja.md) | English · [README](../../README.md) · [Evidence appendix](EVIDENCE.en.md)
 
+## At a glance (reader summary added 2026-10-14)
+
+This summary was added on 2026-10-14. The sections below are unchanged and remain the detailed record; no new experiment or scoring was done.
+
+- **Conclusion.** No trial passed. The latest formal result is D5: independent 77/100, numerical FAIL, adoption HOLD. The highest independent score is D4 at 78. The independent series 53 → 72 → 69 → 78 → 77 is not monotonic.
+- **What changed between the two phases.** September was self-assessed and exposed omitted costs and unproven deletion, recovery, and ownership constraints. October used independent review and made requirements mapping, unknown costs (U), IAM, deletion, and recovery much more concrete, but nothing was proven live.
+- **What blocked a pass.** Cost 3 (mandatory minimum 4), hardgates G3 and G4 on HOLD, and unresolved owner, source-access, and unauthorized-live prerequisites. Complexity 3 lowers the weighted total.
+- **What a pass would and would not mean.** Acceptance of a design deliverable against fixed conditions; not production readiness.
+- **Codes.** A/B/C-1 are September stages, D1–D5 are October trial identifiers, T01–T16 are unexecuted validation tests, S01–S35 are paper review scenarios, and G1–G6 are the D5 hardgates. See the [glossary](../glossary.en.md).
+
+```mermaid
+flowchart LR
+    S["September, self-assessed: A 61 to 65, B 66, C-1 incomplete"] --> O["October, independent review: D1 53, D2 72, D3 69, D4 78, D5 77"]
+    O --> X["No pass - Cost 3, G3 and G4 HOLD, open owner and evidence prerequisites"]
+    X --> N["Proposed next research - separately labelled and not executed"]
+```
+
+*Figure: desk-design assessment flow; not deployed infrastructure. It shows the order of the records, not a system.*
+
 ## 1. Purpose, result, how to read
 
 The experiment asks whether an AI agent can turn ambiguous business requirements into a reasonable, evidence-backed cloud design for AWS, Azure, and GCP. Every assessment is a desk assessment of documents. The latest authoritative result is **D5 (2 Oct 2026): independent 77/100, numerical FAIL, adoption HOLD** ([D5 report](../reports/2026-10-02-d5/FINAL-REPORT.en.md)). No design trial met the full acceptance conditions.
@@ -16,18 +35,18 @@ The work is described as two **research phases**: September (initial failures) a
 
 ## 2. Phase 1: September initial failures
 
-The A and B stages specified GPT-6 Astra Light as the model. The runtime identity and settings were not obtained, so the specified name is not treated as a measured value ([A](../../experiments/A/final-report.md), [B](../../experiments/B/final-report.md)).
+The A and B stages specified GPT-6 Astra Light as the model. The runtime identity and settings were not obtained, so the specified name is not treated as a measured value ([A](../../experiments/A/final-report.en.md), [B](../../experiments/B/final-report.en.md)).
 
 | Date | Stage | Result | Source |
 |---|---|---|---|
-| 8 Sep | A-1 requirements | Prerequisite for A | [A](../../experiments/A/final-report.md) |
+| 8 Sep | A-1 requirements | Prerequisite for A | [A](../../experiments/A/final-report.en.md) |
 | 9 Sep | A-2 design, A-3 review | Self-score **61 → 65**, below the acceptance bar | [A scores](../../experiments/A/A-3/scores.md) |
-| 10 Sep | B comparison and selection | Self-score **66** (initial, B-2 complete, B-3 limited fix all 66), design FAIL, selection on hold | [B](../../experiments/B/final-report.md) |
+| 10 Sep | B comparison and selection | Self-score **66** (initial, B-2 complete, B-3 limited fix all 66), design FAIL, selection on hold | [B](../../experiments/B/final-report.en.md) |
 | 13 Sep | C-1 console read-only check | INCOMPLETE | [C-1](../../evaluation/C-1-console-readonly-check-run.md) |
 
-**A, mechanisms.** The review found a monitoring-cost omission: an omitted 166.44 USD/month probe subtotal, calculated from official unit prices, brought monitoring to 196.44 USD/month, and the budget was still missed. Five observations spaced one minute apart can span only four minutes, so the stability check was redefined as 300 seconds with six observations. Cost rose 2 → 3 and Observability 2 → 4, but the report says the Cost gain reflects a clearer explanation of why the budget fails, not a budget fit. Observability 4 is a design specification, not a measurement. Unmet requirements: total 65 < 80, and five of the six required categories (all but Requirements) were below 4. Deletion deadlines, end-to-end recovery, and per-AZ capacity remained unproven. [September findings](../../experiments/A/final-report.md#7-発見した問題と残課題).
+**A, mechanisms.** The review found a monitoring-cost omission: an omitted 166.44 USD/month probe subtotal, calculated from official unit prices, brought monitoring to 196.44 USD/month, and the budget was still missed. Five observations spaced one minute apart can span only four minutes, so the stability check was redefined as 300 seconds with six observations. Cost rose 2 → 3 and Observability 2 → 4, but the report says the Cost gain reflects a clearer explanation of why the budget fails, not a budget fit. Observability 4 is a design specification, not a measurement. Unmet requirements: total 65 < 80, and five of the six required categories (all but Requirements) were below 4. Deletion deadlines, end-to-end recovery, and per-AZ capacity remained unproven. [September findings](../../experiments/A/final-report.en.md#7-discovered-issues-and-open-tasks).
 
-**B, mechanisms.** Three providers were compared under identical conditions (10% tax, 150 JPY/USD, no free tiers). Basic monthly costs moved as follows. AWS went 76,034 → 83,248 JPY plus unknowns (U), against a 100,000 JPY budget, and the remaining 16,751.63 JPY could be consumed by U and required capacity increases. GCP went 135,580 → 101,933 JPY plus U, still over budget. Azure went 216,493 → 218,588 JPY plus U. The relative points (AWS 64, GCP 62, Azure 59) are not a formal pass. AWS stayed only a reference preference. Architecture, Security, Availability, Cost, and DR stayed at 3, below the required 4. Eleven findings (F01–F11), human decisions on mail storage, PITR, and ownership, and the empirical tests T01–T16 remained open and unexecuted. [September B findings and costs](../../experiments/B/final-report.md).
+**B, mechanisms.** Three providers were compared under identical conditions (10% tax, 150 JPY/USD, no free tiers). Basic monthly costs moved as follows. AWS went 76,034 → 83,248 JPY plus unknowns (U), against a 100,000 JPY budget, and the remaining 16,751.63 JPY could be consumed by U and required capacity increases. GCP went 135,580 → 101,933 JPY plus U, still over budget. Azure went 216,493 → 218,588 JPY plus U. The relative points (AWS 64, GCP 62, Azure 59) are not a formal pass. AWS stayed only a reference preference. Architecture, Security, Availability, Cost, and DR stayed at 3, below the required 4. Eleven findings (F01–F11), human decisions on mail storage, PITR, and ownership, and the empirical tests T01–T16 remained open and unexecuted. [September B findings and costs](../../experiments/B/final-report.en.md).
 
 **C-1.** The console check ran 4 h 23 m 02 s against a 20-minute window and stopped. The recorded elapsed time includes interruptions. It made no changes, and Identity Center reuse or enablement stayed undetermined. Its next-action wording is historical, not current authorization.
 
@@ -90,6 +109,6 @@ These are documented design responses, not measured recovery of a running servic
 | (c) Evidence completeness | Evidence-complete inputs reduce unknowns and cost gaps | Evidence-complete inputs versus unresolved assumptions, run as a separately labelled experimental condition; the changed input is declared | Exact same design artifact, actual model and reasoning setting, reviewer configuration, rubric | Unknowns (U), cost completeness, gate results. Not read as a model effect; absent evidence is not fabricated |
 | (d) Evaluator variation | Repeated scoring of one artifact varies enough to affect conclusions | Repeated blinded scoring of the exact same frozen artifact | Rubric, reviewer configuration, evidence | Score variance and category/gate agreement, blind to previous scores and artifact order. Separates evaluator variation from generation variation |
 
-A new pilot that makes proposal (a) concrete is planned in the [Opus 5.5 High/Medium additional pilot plan](OPUS55-PILOT-PLAN.en.md) (planned, not executed, date undecided, not permission to start, and not a same-condition comparison with the inherited series through D5).
+A new pilot that makes proposal (a) concrete is planned in the [Opus 5.5 High/Medium additional pilot plan](OPUS55-PILOT-PLAN.en.md) (the High run was executed on 21 Oct and is recorded in the [comparison report](../../experiments/opus55-pilot/2026-10-21-high/COMPARISON.ja.md), in Japanese; the Medium run is planned, not executed; not permission to start, and not a same-condition comparison with the inherited series through D5).
 
 **Scope and limits.** The measurements are desk evidence, ratings, and variation. Live performance or billing tests would need separate future authorization and are not implied or executed here. No trial count, budget, or execution is fixed or authorized. Thresholds and criteria must not be lowered or tuned to raise scores. Unknown prices must not be set to zero, absent evidence must not be fabricated, and categories must not be capped merely because measurements are absent. Owner decisions, cost evidence, and a valid-write salvage contract remain research variables or external evidence, not results a model can supply. This document does not authorize another trial or any cloud execution ([source](../reports/2026-10-02-final/FINAL-REPORT.en.md)).

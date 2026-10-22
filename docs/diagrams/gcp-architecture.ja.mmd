@@ -1,0 +1,30 @@
+flowchart TD
+    U["利用者・管理者ブラウザ"] -->|HTTPS| GLB
+    subgraph EDGE["Googleエッジ"]
+        GLB["外部アプリケーションLB<br/>Cloud Armor・Cloud CDN"]
+    end
+    GLB --> API
+    GLB --> ADM
+    GLB --> IMG
+    subgraph TKY["東京 asia-northeast1"]
+        API["Cloud Run: api"]
+        ADM["Cloud Run: admin<br/>IAP＋組織ID認証"]
+        MW["Cloud Run: mail-worker"]
+        JOB["Cloud Run Jobs<br/>migrate・purge・redelete"]
+        SQLP[("Cloud SQL プライマリ")]
+        SQLS[("Cloud SQL スタンバイ<br/>別ゾーン・同期複製")]
+        IMG[("GCS 画像")]
+        LED[("GCS 退会台帳")]
+    end
+    API --> SQLP
+    ADM --> SQLP
+    JOB --> SQLP
+    JOB --> LED
+    SQLP --> MW
+    SQLP -->|同期複製| SQLS
+    MW --> SES["メール送信サービス<br/>第一候補 Amazon SES 東京<br/>国内保存の確認が条件"]
+    SQLP -.->|日次エクスポート| EXP
+    IMG -.->|日次転送| EXP
+    subgraph OSK["大阪 asia-northeast2（DR保管）"]
+        EXP[("DBエクスポート・画像コピー")]
+    end

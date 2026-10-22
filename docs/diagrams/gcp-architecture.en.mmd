@@ -1,0 +1,30 @@
+flowchart TD
+    U["User and admin browsers"] -->|HTTPS| GLB
+    subgraph EDGE["Google edge"]
+        GLB["External application LB<br/>Cloud Armor, Cloud CDN"]
+    end
+    GLB --> API
+    GLB --> ADM
+    GLB --> IMG
+    subgraph TKY["Tokyo asia-northeast1"]
+        API["Cloud Run: api"]
+        ADM["Cloud Run: admin<br/>IAP + org identity"]
+        MW["Cloud Run: mail-worker"]
+        JOB["Cloud Run Jobs<br/>migrate, purge, redelete"]
+        SQLP[("Cloud SQL primary")]
+        SQLS[("Cloud SQL standby<br/>other zone, sync replication")]
+        IMG[("GCS images")]
+        LED[("GCS withdrawal ledger")]
+    end
+    API --> SQLP
+    ADM --> SQLP
+    JOB --> SQLP
+    JOB --> LED
+    SQLP --> MW
+    SQLP -->|sync replication| SQLS
+    MW --> SES["Mail sending service<br/>first candidate: Amazon SES Tokyo<br/>conditional on domestic storage check"]
+    SQLP -.->|daily export| EXP
+    IMG -.->|daily copy| EXP
+    subgraph OSK["Osaka asia-northeast2 (DR storage)"]
+        EXP[("DB exports and image copies")]
+    end

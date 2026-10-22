@@ -1,12 +1,15 @@
 # Level3 クラウド設計思考実験 最終まとめ
-
 # Level3 Cloud Architecture Thought Experiment Final Summary
 
 2026年10月2日（日本時間）版。 / Edition of 2 October 2026, Japan time.
 
-[日本語](#日本語) | [English](#english)
+[日本語](#日本語) | [English](#english) · [全体概要 / Main Overview](../../../README.ja.md) · [用語集 / Glossary](../../glossary.md) · [D5最新結果 / Latest D5 Report](../2026-10-02-d5/README.md)
 
 ## 日本語
+
+> **位置づけと最新結果との区別（2026-10-14注記）：**
+> 本ディレクトリの文書は、2026年10月2日時点の追加要件（個人情報の国内保存、東西自動DR、90日バックアップ、14日PITR等）に基づく思考実験の最終まとめです。本追加条件に対する**新規採点は未実施（未採点）**であり、本追加条件は**試行D5の入力ではありません**。
+> 本リポジトリにおける**最新の正式な独立評価結果は [D5報告（2026-10-02、77/100、数値上不合格・採用判断保留）](../2026-10-02-d5/README.md)** です。全体概要は [README](../../../README.ja.md)、用語の定義は [用語集](../../glossary.md) を参照してください。
 
 **結論：思考実験としての調査・比較・報告をここで完了する。実サービスの採用、予算適合、復旧性能の受入は未確定であり、本番導入を承認するものではない。**
 
@@ -16,9 +19,10 @@
 
 ### 読む順番
 
-1. [最終報告](FINAL-REPORT.ja.md)：結論、確定条件、3社比較、復旧・削除・運用の限界、実証が必要な項目、結果の考察と将来の可能性
+1. [最終報告](FINAL-REPORT.ja.md)：結論、確定条件、3社比較、復旧・削除・運用の限界、実証が必要な項目、結果の考察と将来の可能性（2026-10-14読者向け要約付き）
 2. [価格モデル](COST-MODEL.ja.md)：同一条件で比較できる範囲、条件付き部分計算、未価格項目、算定式
 3. [出典と証拠](EVIDENCE.ja.md)：原要件の固定版、評価履歴、公式資料、価格確認方法、未取得情報
+4. [用語集](../../glossary.md)：各略号・試行コードの定義と出典
 
 ### 範囲
 
@@ -30,6 +34,10 @@
 
 ## English
 
+> **Positioning and Distinction from Latest Results (2026-10-14 Note):**
+> Documents in this directory represent the final summary of the thought experiment based on additional requirements (domestic personal data storage, automated east/west DR, 90-day backups, 14-day PITR, etc.) formalized on 2 October 2026. These additional conditions are **unscored** (no new numerical scoring was conducted) and were **NOT inputs to trial D5**.
+> The authoritative **latest formal independent result of this repository is trial [D5 (2 Oct 2026, 77/100, numerical FAIL / adoption HOLD)](../2026-10-02-d5/README.md)**. For the repository overview, see [Main README](../../../README.md); for term definitions, see the [Glossary](../../glossary.en.md).
+
 **Conclusion: The research, comparison, and reporting for this thought experiment are complete. Adoption for a live service, budget compliance, and acceptance of recovery performance remain unresolved; this report does not authorize production deployment.**
 
 The report incorporates additional conditions including domestic storage of personal data, automated recovery between eastern and western Japanese regions, and 90-day backups. Architecture candidates and prices from three providers were compared, but no winner was selected because evidence of suitable authentication and recovery controls and complete all-inclusive estimates remain missing. The historical D4 assessment of 78/100 and HOLD is retained as a result under the earlier conditions, not reused as a score for the new conditions.
@@ -38,9 +46,10 @@ Section 9 of the final report adds the history and interpretation of four reques
 
 ### Reading Order
 
-1. [Final report](FINAL-REPORT.en.md): conclusion, confirmed conditions, three-provider comparison, recovery/deletion/operations limits, required demonstrations, interpretation, and future possibilities
+1. [Final report](FINAL-REPORT.en.md): conclusion, confirmed conditions, three-provider comparison, recovery/deletion/operations limits, required demonstrations, interpretation, and future possibilities (includes 2026-10-14 reader summary)
 2. [Cost model](COST-MODEL.en.md): what can be compared under matching conditions, conditional partial calculations, unpriced items, and formulas
 3. [Sources and evidence](EVIDENCE.en.md): pinned original requirements, assessment history, official documentation, price-verification methods, and missing information
+4. [Glossary](../../glossary.en.md): definitions and sources for all abbreviations and trial codes
 
 ### Scope
 
@@ -58,4 +67,20 @@ The English editions are full counterparts of the three documents below, not sum
 | [価格モデル](COST-MODEL.ja.md) | [Cost model](COST-MODEL.en.md) |
 | [出典と証拠](EVIDENCE.ja.md) | [Sources and evidence](EVIDENCE.en.md) |
 
-[SHA256SUMS](SHA256SUMS)：本案内と6文書の内容照合用。採点・測定の証拠ではない。 / Content checksums for this guide and the six documents, not evidence of scoring or measurement.
+---
+
+## ハッシュ来歴に関する技術注記 / Technical Note on Hash Provenance
+
+**日本語：**
+- **2026-10-14 の編集対象：** 読者向け説明文書（README、FINAL-REPORT の読者向け要約等）の追加・改善のみであり、原評価結果・採点・設計の改変は一切行っていません。
+- **検証の対象：** `SHA256SUMS` は現在のGit配布物の検証用です。2026-10-02 当初のチェックサム一覧は `SHA256SUMS.2026-10-02` として保持され、当時の原文書はベースコミット `ef8b022372c46b9f589ca5d06b2c4b4dae435921` で参照可能です。保持された過去のチェックサム一覧が、現在の編集後レポートを検証するものと主張してはなりません。
+- **凍結証拠とマニフェスト：** 凍結された元証拠ファイルのチェックサムは変更されていません。`PUBLICATION-MANIFEST.json` および `PUBLICATION-CHECKS.json` は歴史的な 2026-10-02 公開時点を記述しています。
+- **チェックサム更新：** Codexが編集作業完了後にチェックサムファイル群を生成・更新します。エージェント自身はチェックサムやJSONファイルを直接変更しません。
+- **改行コードに関する注意：** Windows の Git 設定（autocrlf）によりチェックアウト時のバイト列が変換される場合があります。検証の対象はGitが配布する未加工の生バイト列です。
+
+**English:**
+- **Scope of 2026-10-14 Edits:** Reader-facing documentation only (READMEs, reader summaries in FINAL-REPORT, etc.); no original evaluation results, scores, or designs were modified.
+- **Verification Target:** `SHA256SUMS` verifies the current Git-distributed publication. The original 2026-10-02 checksum list is preserved as `SHA256SUMS.2026-10-02`, and the original documents remain accessible at base commit `ef8b022372c46b9f589ca5d06b2c4b4dae435921`. The preserved historical checksum list must not be claimed to validate the currently edited reports.
+- **Frozen Evidence & Manifests:** Checksums of original frozen evidence files remain unchanged. `PUBLICATION-MANIFEST.json` and `PUBLICATION-CHECKS.json` continue to describe the historical 2026-10-02 publication.
+- **Checksum Refresh:** Codex will generate and refresh checksum files after editorial completion; the editing agent does not modify checksum or JSON files directly.
+- **Line Ending Notice:** Windows Git autocrlf settings may alter local checkout bytes. The verification targets are the raw Git-distributed bytes.

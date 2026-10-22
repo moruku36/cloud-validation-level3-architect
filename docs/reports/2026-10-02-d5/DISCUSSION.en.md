@@ -2,6 +2,19 @@
 
 [日本語](DISCUSSION.ja.md) | [English](DISCUSSION.en.md) | [Report](FINAL-REPORT.en.md) | [Index](README.md)
 
+## Reader summary (editorial addition, 2026-10-14)
+
+> Added on 2026-10-14 for new readers; the original 2026-10-02 discussion below the dividing line is unchanged and governs if the two differ. No new result or scoring is added.
+
+- **Bottom line.** D5 scored 77/100 (numerical FAIL, adoption HOLD), one point below D4's 78. The difference does not show that High reasoning, or any model, is better or worse, because the designer read earlier findings, new sources were added, the reviewer was fresh, and new controls were added.
+- **Three records, not one series.** D4 (78) and D5 (77) are in the inherited series 53 → 72 → 69 → 78 → 77. A separately reported fresh trial scored 73, is known only from the publication handoff, and is not inserted into that series. The requirements changed on 2 Oct are unscored and were not D5 input.
+- **Why more specific controls cost points.** D5 added an admission coordinator, epoch and fence controls, and custom brokers. These helped trace weaknesses but added performance, cost, and effort burdens that were insufficiently supported, so Complexity fell from 4 to 3 while Cost stayed 3.
+- **What would be needed for a pass.** Not just three more points: all categories at least 3, six mandatory categories at least 4, no unresolved P0, and all six hardgates PASS. That depends on owner decisions and evidence that a model cannot supply.
+
+---
+
+## Original 2026-10-02 discussion (unchanged below this line)
+
 ## Read the Records Separately
 
 D5 was a single inherited improvement trial: the original D4 design and review were read in full before selected parts were revised. The requested designer configuration was GPT-6.1 Sol High, with GPT-6.1 Sol Medium for independent review. Actual model identities and applied reasoning settings are UNKNOWN for both. Independent scoring returned 77/100, numerical failure and adoption HOLD. Requested settings alone do not establish measured model capability.

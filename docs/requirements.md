@@ -16,30 +16,9 @@
 
 ### 要件構造ツリー（ビジネス制約から技術要件への分解）
 
-```mermaid
-flowchart LR
-    subgraph Business["ビジネス要件 & 主要制約"]
-        B1["予算上限: 税込10万円/月<br/>(本番＋開発最小1環境)"]
-        B2["可用性: 99.9%以上<br/>RTO≦30分 / RPO≦5分"]
-        B3["データ主権: 日本国内限定保存<br/>(DR・バックアップ含む)"]
-        B4["運用体制: インフラ専任1名<br/>(平日日中のみ・夜間即応なし)"]
-        B5["規模: 初期1万人 (100万PV)<br/>将来100万人 / 1000RPS対応"]
-    end
+<img src="diagrams/requirements-tree.ja.svg" alt="ビジネス要件5件と技術要件への分解の対応図" width="640">
 
-    subgraph Technical["技術・アーキテクチャ要件への分解"]
-        T1["最小固定費・不要リソース排除<br/>(NAT・過大インスタンス見送り)"]
-        T2["2AZ同期冗長化 & 自動フェイルオーバー<br/>(夜間無人復旧・300秒安定検証)"]
-        T3["国内リージョン完結 (東京/大阪)<br/>(海外転送・外部IdPの監査)"]
-        T4["マネージドサービス主導 (Fargate/RDS)<br/>(OSパッチ運用・K8s運用の排除)"]
-        T5["スケールアップ/アウト余地確保<br/>(ボトルネック特定と段階的拡張)"]
-    end
-
-    B1 --> T1
-    B2 --> T2
-    B3 --> T3
-    B4 --> T4
-    B5 --> T5
-```
+<sub>図のソース：[requirements-tree.ja.mmd](diagrams/requirements-tree.ja.mmd)（[Pele](https://pele.run/)でSVG化）</sub>
 
 ## 正式補足による統合
 

@@ -2,10 +2,14 @@
 
 2026-10-02. **77/100 — numerical FAIL / adoption HOLD.**
 
+[全体概要 / Main Overview](../../../README.ja.md) · [用語集 / Glossary](../../glossary.md) · [追加条件の最終報告 / Final Report on Additional Conditions](../2026-10-02-final/README.md)
+
 |読む順番 / Reading order|日本語|English|
 |---|---|---|
 |結果・根拠・未回答 / Results, grounds, unanswered matters|[最終報告](FINAL-REPORT.ja.md)|[Final report](FINAL-REPORT.en.md)|
 |D4・別途報告73との比較の限界 / Limits of comparison with D4 and separately reported 73|[考察](DISCUSSION.ja.md)|[Discussion](DISCUSSION.en.md)|
+|各記号・試行コードの定義 / Term & code definitions|[用語集](../../glossary.md)|[Glossary](../../glossary.en.md)|
+|全体の位置づけと要約 / Repository overview & summary|[全体概要](../../../README.ja.md)|[Overview](../../../README.md)|
 
 要求設定は設計GPT-6.1 Sol High、独立レビューGPT-6.1 Sol Medium。実際に確認できたモデル・推論設定はUNKNOWNです。単一継承改善、凍結後レビュー・採点1回。Cost/Complexity3、G3/G4 HOLDを保持します。原評価・原保存ファイルを変更せず、公開用の編集・英訳・索引追加だけを行いました。
 
@@ -38,6 +42,24 @@ Evidence files retain their original language. The two reports and discussions a
 原要件・rubric内の古い相対リンクは原文保全のため変更していません。[歴史的リンク対応表](HISTORICAL-LINK-MAP.json)から固定入力コミットの公開ファイルへ移動できます。原入力が伏せたリンクは復元せず、旧採点リンクをD5の採点根拠には使いません。
 
 Older relative links inside original requirements/rubrics remain unchanged to preserve source bytes. The [historical link map](HISTORICAL-LINK-MAP.json) supplies destinations at the pinned public input commit. Deliberately redacted links remain redacted; historical score links are not used as D5 scoring evidence.
+
+---
+
+## ハッシュ来歴に関する技術注記 / Technical Note on Hash Provenance
+
+**日本語：**
+- **2026-10-14 の編集対象：** 読者向け説明文書（README、FINAL-REPORT の読者向け要約、解説等）の追加・改善のみであり、原評価結果・採点・設計の改変は一切行っていません。
+- **検証の対象：** `SHA256SUMS` は現在のGit配布物の検証用です。2026-10-02 当初のチェックサム一覧は `SHA256SUMS.2026-10-02` として保持され、当時の原文書はベースコミット `ef8b022372c46b9f589ca5d06b2c4b4dae435921` で参照可能です。保持された過去のチェックサム一覧が、現在の編集後レポートを検証するものと主張してはなりません。
+- **凍結証拠とマニフェスト：** 凍結された元証拠ファイルのチェックサムは変更されていません。`PUBLICATION-MANIFEST.json` および `PUBLICATION-CHECKS.json` は歴史的な 2026-10-02 公開時点を記述しています。
+- **チェックサム更新：** Codexが編集作業完了後にチェックサムファイル群を生成・更新します。エージェント自身はチェックサムやJSONファイルを直接変更しません。
+- **改行コードに関する注意：** Windows の Git 設定（autocrlf）によりチェックアウト時のバイト列が変換される場合があります。検証の対象はGitが配布する未加工の生バイト列です。
+
+**English:**
+- **Scope of 2026-10-14 Edits:** Reader-facing documentation only (READMEs, reader summaries in FINAL-REPORT, explanatory guidance, etc.); no original evaluation results, scores, or designs were modified.
+- **Verification Target:** `SHA256SUMS` verifies the current Git-distributed publication. The original 2026-10-02 checksum list is preserved as `SHA256SUMS.2026-10-02`, and the original documents remain accessible at base commit `ef8b022372c46b9f589ca5d06b2c4b4dae435921`. The preserved historical checksum list must not be claimed to validate the currently edited reports.
+- **Frozen Evidence & Manifests:** Checksums of original frozen evidence files remain unchanged. `PUBLICATION-MANIFEST.json` and `PUBLICATION-CHECKS.json` continue to describe the historical 2026-10-02 publication.
+- **Checksum Refresh:** Codex will generate and refresh checksum files after editorial completion; the editing agent does not modify checksum or JSON files directly.
+- **Line Ending Notice:** Windows Git autocrlf settings may alter local checkout bytes. The verification targets are the raw Git-distributed bytes.
 
 ハッシュ確認 / Hash verification:
 
